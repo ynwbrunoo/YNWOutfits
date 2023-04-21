@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YNW Outfits - HOME</title>
@@ -23,12 +23,12 @@
         
         <nav id="nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="ynw-melly.html">YNW MELLY</a></li>
-            <li><a href="ynw-bslime.html">YNW BSLIME</a></li>
-            <li><a href="ynw-bortlen.html">YNW BORTLEN</a></li>
-            <li><a href="ynw-smokedaloc.html">YNW SMOKEDALOC</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="ynw-melly.php">YNW MELLY</a></li>
+            <li><a href="ynw-bslime.php">YNW BSLIME</a></li>
+            <li><a href="ynw-bortlen.php">YNW BORTLEN</a></li>
+            <li><a href="ynw-smokedaloc.php">YNW SMOKEDALOC</a></li>
           </ul>
         </nav>
         
@@ -532,11 +532,11 @@
             <div class="col-md-4">
               <h4>Links</h4>
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="ynw-melly.html">YNW Melly</a></li>
-                <li><a href="ynw-bslime.html">YNW Bslime</a></li>
-                <li><a href="ynw-bortlen.html">YNW Bortlen</a></li>
-                <li><a href="ynw-smokedaloc.html">YNW SmokeDaLoc</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="ynw-melly.php">YNW Melly</a></li>
+                <li><a href="ynw-bslime.php">YNW Bslime</a></li>
+                <li><a href="ynw-bortlen.php">YNW Bortlen</a></li>
+                <li><a href="ynw-smokedaloc.php">YNW SmokeDaLoc</a></li>
               </ul>
             </div>
             <div class="col-md-4">
@@ -548,7 +548,7 @@
         </div>
     </footer>
 </body>
-<script src="index.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>   
 

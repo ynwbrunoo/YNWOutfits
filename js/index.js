@@ -55,28 +55,28 @@ mellytitle.onmousemove = () => {
 
   seemore1.onclick = () =>
   {
-    window.location.href = "ynw-melly.html";
+    window.location.href = "../ynw-melly.php";
   }
 
   let seemore2 = document.getElementById("seemore2");
 
   seemore2.onclick = () =>
   {
-    window.location.href = "ynw-bslime.html";
+    window.location.href = "../ynw-bslime.php";
   }
 
   let seemore3 = document.getElementById("seemore3");
 
   seemore3.onclick = () =>
   {
-    window.location.href = "ynw-bortlen.html";
+    window.location.href = "../ynw-bortlen.php";
   }
 
   let seemore4 = document.getElementById("seemore4");
 
   seemore4.onclick = () =>
   {
-    window.location.href = "ynw-smokedaloc.html";
+    window.location.href = "../ynw-smokedaloc.php";
   }
 
     let nav = document.getElementById("nav");
