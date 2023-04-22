@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/index.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8962462693343372" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YNW Outfits - HOME</title>
@@ -28,7 +29,6 @@
             <li><a href="ynw-melly.php">YNW MELLY</a></li>
             <li><a href="ynw-bslime.php">YNW BSLIME</a></li>
             <li><a href="ynw-bortlen.php">YNW BORTLEN</a></li>
-            <li><a href="ynw-smokedaloc.php">YNW SMOKEDALOC</a></li>
           </ul>
         </nav>
         
@@ -166,109 +166,109 @@
             <button onClick="window.open('https://www.instagram.com/_ynwbslime/');" id="ynwbslime-insta" class="displayNone2"><i class="bi bi-instagram"></i> @_ynwbslime</button>
         </div>
 
-        <div id="gpost2">
-            <div class="post" id="post2">
+        <div id="gpost4">
+            <div class="post" id="post4">
                 <div class="left">
-                    <div class="image4" id="img4">
-                        <div class="vest-click displayNone" id="vest-click15" onClick="window.open('https://watchmydiamonds.com/rolex-mens-datejust-ii-41mm-stainless-steel-green-roman-diamond-dial-custom-fully-iced-out-watch.html');">
+                    <div class="image6" id="img6">
+                        <div class="vest-click displayNone" id="vest-click28" onClick="window.open('https://www.yoox.com/us/46879334MH/item#cod10=46879334MH&sizeId=1');">
                             <div class="vest-img">
-                                <img src="img/watch1.png">
+                                <img src="img/beanie1.png">
                             </div>
                             <div class="desc-click">
-                                <p><b>Rolex</b></p>
-                                <p>Mens Datejust II Custom</p>
-                                <p><span>$28,000</span></p>
+                                <p><b>Armani Exchange</b></p>
+                                <p>Knit Black Beanie</p>
+                                <p><span>$60</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click16" onClick="window.open('https://www.net-a-porter.com/en-sg/shop/product/palm-angels/clothing/casual-jackets/striped-printed-jersey-track-jacket/38063312418874236');">
+                        <div class="vest-click displayNone" id="vest-click29" onClick="window.open('https://www.montiboutique.com/en-US/product/43365/off_white/t-shirt_stampa');">
                             <div class="vest-img">
-                                <img src="img/jacket4.png">
+                                <img src="img/shirt2.png">
                             </div>
                             <div class="desc-click">
-                                <p><b>Palm Angels</b></p>
-                                <p>Pink Track Jacket</p>
-                                <p><span>$619</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>White Slim T-Shirt</p>
+                                <p><span>$283</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click17" onClick="window.open('https://www.palmangels.com/en-us/shopping/pink-track-pants-17573302');">
+                        <div class="vest-click displayNone" id="vest-click30" onClick="window.open('https://www.farfetch.com/shopping/men/off-white-arrows-printed-track-pants-item-16864897.aspx');">
                             <div class="vest-img">
-                                <img src="img/pants1.png">
+                                <img src="img/pants3.png">
                             </div>
                             <div class="desc-click">
-                                <p><b>Palm Angels</b></p>
-                                <p>Pink Track Pants</p>
-                                <p><span>$430</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>Track Pants</p>
+                                <p><span>$575</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click18" onClick="window.open('https://www.farfetch.com/shopping/women/balenciaga-triple-s-low-top-sneakers-item-17336674.aspx?size=27&storeid=13539&utm_source=google&utm_medium=cpc&utm_keywordid=81964145&utm_shoppingproductid=17336674-27&pid=google_search&af_channel=Search&c=804272543&af_c_id=804272543&af_siteid=&af_keywords=pla-299386098388&af_adset_id=44124870840&af_ad_id=190938098559&af_sub1=81964145&af_sub5=17336674-27&is_retargeting=true&shopping=yes&gclid=CjwKCAjw__ihBhADEiwAXEazJo92DZ819m1qhJ64eUr9JJQDm-Gcz7LdT6OSMSnELuNHAPWS_VZ0vhoCVPQQAvD_BwE');">
+                        <div class="vest-click displayNone" id="vest-click31" onClick="window.open('https://www.farfetch.com/pt/shopping/men/off-white-out-of-office-ooo-sneakers-item-15967439.aspx?size=27&storeid=12572&utm_source=google&utm_medium=cpc&utm_keywordid=81964152&utm_shoppingproductid=15967439-27&pid=google_search&af_channel=Search&c=804272540&af_c_id=804272540&af_siteid=&af_keywords=pla-295896707266&af_adset_id=44124870160&af_ad_id=190938098535&af_sub1=81964152&af_sub5=15967439-27&is_retargeting=true&shopping=yes&gclid=Cj0KCQjwi46iBhDyARIsAE3nVrbWgbePmml8zzUgjquHA-jpEynf_qx-11_M6ycLiBplozPhDBHBK94aAorvEALw_wcB');">
                             <div class="vest-img">
-                                <img src="img/sneakers3.jpg">
+                                <img src="img/sneakers4.png">
                             </div>
                             <div class="desc-click">
-                                <p><b>Balenciaga</b></p>
-                                <p>Pink Triple S Clear Sole</p>
-                                <p><span>$1,150</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>Out Of Office Sneakers</p>
+                                <p><span>$635</span></p>
                             </div>
                         </div>
-                        <div id="btnA4">
-                            <button id="btn15" class="btn"></button>
-                            <button id="btn16" class="btn"></button>
-                            <button id="btn17" class="btn"></button>
-                            <button id="btn18" class="btn"></button>
+                        <div id="btnA6">
+                            <button id="btn28" class="btn"></button>
+                            <button id="btn29" class="btn"></button>
+                            <button id="btn30" class="btn"></button>
+                            <button id="btn31" class="btn"></button>
                         </div>
                     </div>
                 </div>
-                <div class="right" id="right2">
+                <div class="right" id="right4">
                     <div class="outfit">
-                        <div class="vest" onClick="window.open('https://watchmydiamonds.com/rolex-mens-datejust-ii-41mm-stainless-steel-green-roman-diamond-dial-custom-fully-iced-out-watch.html');">
+                        <div class="vest" onClick="window.open('https://www.yoox.com/us/46879334MH/item#cod10=46879334MH&sizeId=1');">
                             <div class="vest-img">
-                                <img src="img/watch1.png">
+                                <img src="img/beanie1.png">
                             </div>
                             <div class="desc">
-                                <p><b>Rolex</b></p>
-                                <p>Mens Datejust II Custom</p>
-                                <p><span>$28,000</span></p>
+                                <p><b>Armani Exchange</b></p>
+                                <p>Knit Black Beanie</p>
+                                <p><span>$60</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.net-a-porter.com/en-sg/shop/product/palm-angels/clothing/casual-jackets/striped-printed-jersey-track-jacket/38063312418874236');">
+                        <div class="vest" onClick="window.open('https://www.montiboutique.com/en-US/product/43365/off_white/t-shirt_stampa');">
                             <div class="vest-img">
-                                <img src="img/jacket4.png">
+                                <img src="img/shirt2.png">
                             </div>
                             <div class="desc">
-                                <p><b>Palm Angels</b></p>
-                                <p>Pink Track Jacket</p>
-                                <p><span>$619</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>White Slim T-Shirt</p>
+                                <p><span>$283</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.palmangels.com/en-us/shopping/pink-track-pants-17573302');">
+                        <div class="vest" onClick="window.open('https://www.farfetch.com/shopping/men/off-white-arrows-printed-track-pants-item-16864897.aspx');">
                             <div class="vest-img">
-                                <img src="img/pants1.png">
+                                <img src="img/pants3.png">
                             </div>
                             <div class="desc">
-                                <p><b>Palm Angels</b></p>
-                                <p>Pink Track Pants</p>
-                                <p><span>$430</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>Track Pants</p>
+                                <p><span>$575</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.farfetch.com/shopping/women/balenciaga-triple-s-low-top-sneakers-item-17336674.aspx?size=27&storeid=13539&utm_source=google&utm_medium=cpc&utm_keywordid=81964145&utm_shoppingproductid=17336674-27&pid=google_search&af_channel=Search&c=804272543&af_c_id=804272543&af_siteid=&af_keywords=pla-299386098388&af_adset_id=44124870840&af_ad_id=190938098559&af_sub1=81964145&af_sub5=17336674-27&is_retargeting=true&shopping=yes&gclid=CjwKCAjw__ihBhADEiwAXEazJo92DZ819m1qhJ64eUr9JJQDm-Gcz7LdT6OSMSnELuNHAPWS_VZ0vhoCVPQQAvD_BwE');">
+                        <div class="vest" onClick="window.open('https://www.farfetch.com/pt/shopping/men/off-white-out-of-office-ooo-sneakers-item-15967439.aspx?size=27&storeid=12572&utm_source=google&utm_medium=cpc&utm_keywordid=81964152&utm_shoppingproductid=15967439-27&pid=google_search&af_channel=Search&c=804272540&af_c_id=804272540&af_siteid=&af_keywords=pla-295896707266&af_adset_id=44124870160&af_ad_id=190938098535&af_sub1=81964152&af_sub5=15967439-27&is_retargeting=true&shopping=yes&gclid=Cj0KCQjwi46iBhDyARIsAE3nVrbWgbePmml8zzUgjquHA-jpEynf_qx-11_M6ycLiBplozPhDBHBK94aAorvEALw_wcB');">
                             <div class="vest-img">
-                                <img src="img/sneakers3.jpg">
+                                <img src="img/sneakers4.png">
                             </div>
                             <div class="desc">
-                                <p><b>Balenciaga</b></p>
-                                <p>Pink Triple S Clear Sole</p>
-                                <p><span>$1,150</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>Out Of Office Sneakers</p>
+                                <p><span>$635</span></p>
                             </div>
                         </div>
                         <div class="total">
                             <div class="desc">
                                 <p><b>TOTAL</b></p>
                                 <p>The Total Price Of The Outfit</p>
-                                <p><b>$30,199</b></p>
+                                <p><b>$1,553</b></p>
                             </div>
                         </div>
                         <div class="download">
-                            <button class="download-btn4" data-timer="10">
+                            <button class="download-btn6" data-timer="10">
                                 <span class="icon material-symbols-rounded">vertical_align_bottom</span>
                                 <span class="text">Download Image</span>
                             </button>
@@ -276,7 +276,7 @@
                     </div>
                 </div>
             </div>
-            <button id="more2">Show Details</button>
+            <button id="more4">Show Details</button>
         </div>
         <div class="seemore" id="seemore2">
             <button>See More</button>
@@ -401,145 +401,30 @@
         <div class="seemore" id="seemore3">
             <button>See More</button>
         </div>
-
-        <div class="titlesinger titlesinger4" id="ynwsmokedaloc-title">
-            <h1 id="ynwsmokedaloc-h1">YNW SMOKEDALOC</h1>
-            <button onClick="window.open('https://www.instagram.com/ynw_smokedaloc/');" id="ynwsmokedaloc-insta" class="displayNone2"><i class="bi bi-instagram"></i> @ynw_smokedaloc </button>
-        </div>
-        <div id="gpost4">
-            <div class="post" id="post4">
-                <div class="left">
-                    <div class="image10" id="img10">
-                        <div class="vest-click displayNone" id="vest-click19" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
-                            <div class="vest-img">
-                                <img src="img/jacket5.png">
-                            </div>
-                            <div class="desc-click">
-                                <p><b>Zara</b></p>
-                                <p>White Denim Graffiti Jacket</p>
-                                <p><span>$48</span></p>
-                            </div>
-                        </div>
-                        <div class="vest-click displayNone" id="vest-click20" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
-                            <div class="vest-img">
-                                <img src="img/watch1.png">
-                            </div>
-                            <div class="desc-click">
-                                <p><b>Helloice</b></p>
-                                <p>Men's Watch in White Gold</p>
-                                <p><span>$160</span></p>
-                            </div>
-                        </div>
-                        <div class="vest-click displayNone" id="vest-click21" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
-                            <div class="vest-img">
-                                <img src="img/belt1.png">
-                            </div>
-                            <div class="desc-click">
-                                <p><b>Gucci</b></p>
-                                <p>GG Supreme belt</p>
-                                <p><span>$480</span></p>
-                            </div>
-                        </div>
-                        <div class="vest-click displayNone" id="vest-click22" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
-                            <div class="vest-img">
-                                <img src="img/pants2.png">
-                            </div>
-                            <div class="desc-click">
-                                <p><b>Purple Brand</b></p>
-                                <p>White Denim Jeans</p>
-                                <p><span>$326</span></p>
-                            </div>
-                        </div>
-                        <div id="btnA7">
-                            <button id="btn19" class="btn"></button>
-                            <button id="btn20" class="btn"></button>
-                            <button id="btn21" class="btn"></button>
-                            <button id="btn22" class="btn"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="right" id="right3">
-                    <div class="outfit">
-                        <div class="vest" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
-                            <div class="vest-img">
-                                <img src="img/jacket5.png">
-                            </div>
-                            <div class="desc">
-                                <p><b>Zara</b></p>
-                                <p>White Denim Graffiti Jacket</p>
-                                <p><span>$48</span></p>
-                            </div>
-                        </div>
-                        <div class="vest" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
-                            <div class="vest-img">
-                                <img src="img/watch2.png">
-                            </div>
-                            <div class="desc">
-                                <p><b>Helloice</b></p>
-                                <p>Men's Watch in White Gold</p>
-                                <p><span>$160</span></p>
-                            </div>
-                        </div>
-                        <div class="vest" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
-                            <div class="vest-img">
-                                <img src="img/belt1.png">
-                            </div>
-                            <div class="desc">
-                                <p><b>Gucci</b></p>
-                                <p>GG Supreme belt</p>
-                                <p><span>$480</span></p>
-                            </div>
-                        </div>
-                        <div class="vest" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
-                            <div class="vest-img" style="height: 90px;">
-                                <img src="img/pants2.png">
-                            </div>
-                            <div class="desc">
-                                <p><b>Purple Brand</b></p>
-                                <p>White Denim Jeans</p>
-                                <p><span>$326</span></p>
-                            </div>
-                        </div>
-                        <div class="total">
-                            <div class="desc">
-                                <p><b>TOTAL</b></p>
-                                <p>The Total Price Of The Outfit</p>
-                                <p><b>$1,014</b></p>
-                            </div>
-                        </div>
-                        <div class="download">
-                            <button class="download-btn10" data-timer="10">
-                                <span class="icon material-symbols-rounded">vertical_align_bottom</span>
-                                <span class="text">Download Image</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button id="more4">Show Details</button>
-        </div>
-        <div class="seemore" id="seemore4">
-            <button>See More</button>
-        </div>
     </main>
     <footer>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
               <h4>About</h4>
-              <p>Discover the best outfits worn by YNW Melly, YNW Bortlen, YNW Bslime and YNW SmokeDaLoc in their iconic photos and music videos. Our selection includes their signature colorful hoodies, graphic tees, ripped jeans, and stylish sneakers. As fans of these talented artists, we've compiled these outfits to help you emulate their unique style and feel like a part of the YNW family.</p>
+              <p>Discover the best outfits worn by YNW Melly, YNW Bortlen and YNW Bslime in their iconic photos and music videos. Our selection includes their signature colorful hoodies, graphic tees, ripped jeans, and stylish sneakers. As fans of these talented artists, we've compiled these outfits to help you emulate their unique style and feel like a part of the YNW family.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <h4>Links</h4>
               <ul>
                 <li><a href="about.php">About</a></li>
                 <li><a href="ynw-melly.php">YNW Melly</a></li>
                 <li><a href="ynw-bslime.php">YNW Bslime</a></li>
                 <li><a href="ynw-bortlen.php">YNW Bortlen</a></li>
-                <li><a href="ynw-smokedaloc.php">YNW SmokeDaLoc</a></li>
               </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
+              <h4>Social</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/ynw.brunoo/">Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
               <h4>Copyright</h4>
               <p>&copy; 2023 YNW Outfits.</p>
               <img src="img/logo.png" alt="Logo">

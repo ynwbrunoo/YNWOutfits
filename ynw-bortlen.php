@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/index.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8962462693343372" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YNW Outfits - YNW BSLIME</title>
@@ -28,7 +29,6 @@
             <li><a href="ynw-melly.php">YNW MELLY</a></li>
             <li><a href="ynw-bslime.php">YNW BSLIME</a></li>
             <li><a href="ynw-bortlen.php">YNW BORTLEN</a></li>
-            <li><a href="ynw-smokedaloc.php">YNW SMOKEDALOC</a></li>
           </ul>
         </nav>
         
@@ -161,25 +161,254 @@
             </div>
             <button id="more3">Show Details</button>
         </div>
+        <div id="gpost4">
+            <div class="post" id="post3">
+                <div class="left">
+                    <div class="image7" id="img7">
+                        <div class="vest-click displayNone" id="vest-click19" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                            <div class="vest-img">
+                                <img src="img/jacket5.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Zara</b></p>
+                                <p>White Denim Graffiti Jacket</p>
+                                <p><span>$48</span></p>
+                            </div>
+                        </div>
+                        <div class="vest-click displayNone" id="vest-click20" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                            <div class="vest-img">
+                                <img src="img/watch1.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Helloice</b></p>
+                                <p>Men's Watch in White Gold</p>
+                                <p><span>$160</span></p>
+                            </div>
+                        </div>
+                        <div class="vest-click displayNone" id="vest-click21" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
+                            <div class="vest-img">
+                                <img src="img/belt1.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Gucci</b></p>
+                                <p>GG Supreme belt</p>
+                                <p><span>$480</span></p>
+                            </div>
+                        </div>
+                        <div class="vest-click displayNone" id="vest-click22" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
+                            <div class="vest-img">
+                                <img src="img/pants2.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Purple Brand</b></p>
+                                <p>White Denim Jeans</p>
+                                <p><span>$326</span></p>
+                            </div>
+                        </div>
+                        <div id="btnA7">
+                            <button id="btn19" class="btn"></button>
+                            <button id="btn20" class="btn"></button>
+                            <button id="btn21" class="btn"></button>
+                            <button id="btn22" class="btn"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right" id="right3">
+                    <div class="outfit">
+                        <div class="vest" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                            <div class="vest-img">
+                                <img src="img/jacket5.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Zara</b></p>
+                                <p>White Denim Graffiti Jacket</p>
+                                <p><span>$48</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                            <div class="vest-img">
+                                <img src="img/watch2.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Helloice</b></p>
+                                <p>Men's Watch in White Gold</p>
+                                <p><span>$160</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
+                            <div class="vest-img">
+                                <img src="img/belt1.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Gucci</b></p>
+                                <p>GG Supreme belt</p>
+                                <p><span>$480</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
+                            <div class="vest-img" style="height: 90px;">
+                                <img src="img/pants2.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Purple Brand</b></p>
+                                <p>White Denim Jeans</p>
+                                <p><span>$326</span></p>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="desc">
+                                <p><b>TOTAL</b></p>
+                                <p>The Total Price Of The Outfit</p>
+                                <p><b>$1,014</b></p>
+                            </div>
+                        </div>
+                        <div class="download">
+                            <button class="download-btn7" data-timer="10">
+                                <span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                                <span class="text">Download Image</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="more3">Show Details</button>
+        </div>
+        <div id="gpost5">
+            <div class="post" id="post3">
+                <div class="left">
+                    <div class="image7" id="img7">
+                        <div class="vest-click displayNone" id="vest-click19" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                            <div class="vest-img">
+                                <img src="img/jacket5.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Zara</b></p>
+                                <p>White Denim Graffiti Jacket</p>
+                                <p><span>$48</span></p>
+                            </div>
+                        </div>
+                        <div class="vest-click displayNone" id="vest-click20" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                            <div class="vest-img">
+                                <img src="img/watch1.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Helloice</b></p>
+                                <p>Men's Watch in White Gold</p>
+                                <p><span>$160</span></p>
+                            </div>
+                        </div>
+                        <div class="vest-click displayNone" id="vest-click21" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
+                            <div class="vest-img">
+                                <img src="img/belt1.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Gucci</b></p>
+                                <p>GG Supreme belt</p>
+                                <p><span>$480</span></p>
+                            </div>
+                        </div>
+                        <div class="vest-click displayNone" id="vest-click22" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
+                            <div class="vest-img">
+                                <img src="img/pants2.png">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Purple Brand</b></p>
+                                <p>White Denim Jeans</p>
+                                <p><span>$326</span></p>
+                            </div>
+                        </div>
+                        <div id="btnA7">
+                            <button id="btn19" class="btn"></button>
+                            <button id="btn20" class="btn"></button>
+                            <button id="btn21" class="btn"></button>
+                            <button id="btn22" class="btn"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right" id="right3">
+                    <div class="outfit">
+                        <div class="vest" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                            <div class="vest-img">
+                                <img src="img/jacket5.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Zara</b></p>
+                                <p>White Denim Graffiti Jacket</p>
+                                <p><span>$48</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                            <div class="vest-img">
+                                <img src="img/watch2.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Helloice</b></p>
+                                <p>Men's Watch in White Gold</p>
+                                <p><span>$160</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
+                            <div class="vest-img">
+                                <img src="img/belt1.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Gucci</b></p>
+                                <p>GG Supreme belt</p>
+                                <p><span>$480</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
+                            <div class="vest-img" style="height: 90px;">
+                                <img src="img/pants2.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Purple Brand</b></p>
+                                <p>White Denim Jeans</p>
+                                <p><span>$326</span></p>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="desc">
+                                <p><b>TOTAL</b></p>
+                                <p>The Total Price Of The Outfit</p>
+                                <p><b>$1,014</b></p>
+                            </div>
+                        </div>
+                        <div class="download">
+                            <button class="download-btn7" data-timer="10">
+                                <span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                                <span class="text">Download Image</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="more3">Show Details</button>
+        </div>
     </main>
     <footer>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
               <h4>About</h4>
-              <p>Discover the best outfits worn by YNW Melly, YNW Bortlen, YNW Bslime and YNW SmokeDaLoc in their iconic photos and music videos. Our selection includes their signature colorful hoodies, graphic tees, ripped jeans, and stylish sneakers. As fans of these talented artists, we've compiled these outfits to help you emulate their unique style and feel like a part of the YNW family.</p>
+              <p>Discover the best outfits worn by YNW Melly, YNW Bortlen and YNW Bslime in their iconic photos and music videos. Our selection includes their signature colorful hoodies, graphic tees, ripped jeans, and stylish sneakers. As fans of these talented artists, we've compiled these outfits to help you emulate their unique style and feel like a part of the YNW family.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <h4>Links</h4>
               <ul>
                 <li><a href="about.php">About</a></li>
                 <li><a href="ynw-melly.php">YNW Melly</a></li>
                 <li><a href="ynw-bslime.php">YNW Bslime</a></li>
                 <li><a href="ynw-bortlen.php">YNW Bortlen</a></li>
-                <li><a href="ynw-smokedaloc.php">YNW SmokeDaLoc</a></li>
               </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
+              <h4>Social</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/ynw.brunoo/">Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
               <h4>Copyright</h4>
               <p>&copy; 2023 YNW Outfits.</p>
               <img src="img/logo.png" alt="Logo">
@@ -246,6 +475,8 @@ bortlentitle.onmousemove = () => {
     
         ScrollReveal().reveal(".titlesinger", { delay: 100, origin: 'top'});
         ScrollReveal().reveal("#gpost3", { delay: 100, origin: 'left'});
+        ScrollReveal().reveal("#gpost4", { delay: 100, origin: 'right'});
+        ScrollReveal().reveal("#gpost5", { delay: 100, origin: 'left'});
         ScrollReveal().reveal("#seemore3", { delay: 100, origin: 'bottom'});
         ScrollReveal().reveal(".ynwmusic", { delay: 100, origin: 'bottom'});
 

@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/index.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8962462693343372" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YNW Outfits - ABOUT</title>
@@ -28,7 +29,6 @@
             <li><a href="ynw-melly.php">YNW MELLY</a></li>
             <li><a href="ynw-bslime.php">YNW BSLIME</a></li>
             <li><a href="ynw-bortlen.php">YNW BORTLEN</a></li>
-            <li><a href="ynw-smokedaloc.php">YNW SMOKEDALOC</a></li>
           </ul>
         </nav>
         
@@ -44,7 +44,7 @@
     <main class="flexbox-col">
         <div class="about">
             <div class="about-text">
-                <h2><b>Welcome to the YNW Outfits page!</b></h2> <br><br> <p>Here, you will find a selection of the best outfits worn by YNW Melly, YNW Bortlen, YNW Bslime and YNW SmokeDaLoc in their iconic photos and music videos. <br><br> As a huge fan of these talented artists, I have compiled these outfits to help you emulate their unique style. From the colorful hoodies and graphic tees to the ripped jeans and stylish sneakers, I have identified the clothing pieces that make up their signature looks. My goal is to provide you with an easy way to replicate their fashion style, so you can feel like a part of the YNW family. <br><br> We understand that fashion is not just about the clothes, but also the attitude. YNW Melly, YNW Bortlen, YNW Bslime, YNW SmokeDaLoc are known for their unapologetic confidence and individuality, and their outfits capture that spirit perfectly. We hope that by wearing these outfits, you too can feel confident and empowered to be yourself. <br><br> Thank you for visiting my page and supporting YNW Melly, YNW Bortlen, YNW Bslime and YNW SmokeDaLoc. I hope you find their selection of outfits helpful in creating your own unique style.</p> <br><br><br> <h2><span class="freemelly">#FREEMELLY</span></h2>
+                <h2><b>Welcome to the YNW Outfits page!</b></h2> <br><br> <p>Here, you will find a selection of the best outfits worn by YNW Melly, YNW Bortlen and YNW Bslime in their iconic photos and music videos. <br><br> As a huge fan of these talented artists, I have compiled these outfits to help you emulate their unique style. From the colorful hoodies and graphic tees to the ripped jeans and stylish sneakers, I have identified the clothing pieces that make up their signature looks. My goal is to provide you with an easy way to replicate their fashion style, so you can feel like a part of the YNW family. <br><br> We understand that fashion is not just about the clothes, but also the attitude. YNW Melly, YNW Bortlen and YNW Bslime are known for their unapologetic confidence and individuality, and their outfits capture that spirit perfectly. We hope that by wearing these outfits, you too can feel confident and empowered to be yourself. <br><br> Thank you for visiting my page and supporting YNW Melly, YNW Bortlen and YNW Bslime. I hope you find their selection of outfits helpful in creating your own unique style.</p> <br><br><br> <h2><span class="freemelly">#FREEMELLY</span></h2>
             </div>
             <div class="mellyphoto">
                 <img src="img/ynwmelly1.jpg" alt="">
@@ -52,30 +52,35 @@
         </div>
     </main>
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h4>About</h4>
-            <p>Discover the best outfits worn by YNW Melly, YNW Bortlen, YNW Bslime and YNW SmokeDaLoc in their iconic photos and music videos. Our selection includes their signature colorful hoodies, graphic tees, ripped jeans, and stylish sneakers. As fans of these talented artists, we've compiled these outfits to help you emulate their unique style and feel like a part of the YNW family.</p>
-          </div>
-          <div class="col-md-4">
-            <h4>Links</h4>
-            <ul>
-              <li><a href="about.php">About</a></li>
-              <li><a href="ynw-melly.php">YNW Melly</a></li>
-              <li><a href="ynw-bslime.php">YNW Bslime</a></li>
-              <li><a href="ynw-bortlen.php">YNW Bortlen</a></li>
-              <li><a href="ynw-smokedaloc.php">YNW SmokeDaLoc</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Copyright</h4>
-            <p>&copy; 2023 YNW Outfits.</p>
-            <img src="img/logo.png" alt="Logo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About</h4>
+              <p>Discover the best outfits worn by YNW Melly, YNW Bortlen and YNW Bslime in their iconic photos and music videos. Our selection includes their signature colorful hoodies, graphic tees, ripped jeans, and stylish sneakers. As fans of these talented artists, we've compiled these outfits to help you emulate their unique style and feel like a part of the YNW family.</p>
+            </div>
+            <div class="col-md-3">
+              <h4>Links</h4>
+              <ul>
+                <li><a href="about.php">About</a></li>
+                <li><a href="ynw-melly.php">YNW Melly</a></li>
+                <li><a href="ynw-bslime.php">YNW Bslime</a></li>
+                <li><a href="ynw-bortlen.php">YNW Bortlen</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Social</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/ynw.brunoo/">Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Copyright</h4>
+              <p>&copy; 2023 YNW Outfits.</p>
+              <img src="img/logo.png" alt="Logo">
+            </div>
           </div>
         </div>
-      </div>
-  </footer>
+    </footer>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>  

@@ -7,9 +7,6 @@ let bslimeinsta = document.getElementById("ynwbslime-insta");
 let bortlentitle = document.getElementById("ynwbortlen-title");
 let bortlenh1 = document.getElementById("ynwbortlen-h1");
 let bortleninsta = document.getElementById("ynwbortlen-insta");
-let smokedaloctitle = document.getElementById("ynwsmokedaloc-title");
-let smokedaloch1 = document.getElementById("ynwsmokedaloc-h1");
-let smokedalocinsta = document.getElementById("ynwsmokedaloc-insta");
 
 mellytitle.onmousemove = () => {
     mellyinsta.classList.add("show");
@@ -41,57 +38,36 @@ mellytitle.onmousemove = () => {
     bortleninsta.classList.remove("show");
   }
 
-  smokedaloctitle.onmousemove = () => {
-    smokedalocinsta.classList.add("show");
-    smokedaloch1.classList.remove("show");
-  }
-  
-  smokedaloctitle.onmouseleave = () => {
-    smokedaloch1.classList.add("show");
-    smokedalocinsta.classList.remove("show");
-  }
-
   let seemore1 = document.getElementById("seemore1");
 
   seemore1.onclick = () =>
   {
-    window.location.href = "../ynw-melly.php";
+    window.location.href = "ynw-melly.php";
   }
 
   let seemore2 = document.getElementById("seemore2");
 
   seemore2.onclick = () =>
   {
-    window.location.href = "../ynw-bslime.php";
+    window.location.href = "ynw-bslime.php";
   }
 
   let seemore3 = document.getElementById("seemore3");
 
   seemore3.onclick = () =>
   {
-    window.location.href = "../ynw-bortlen.php";
-  }
-
-  let seemore4 = document.getElementById("seemore4");
-
-  seemore4.onclick = () =>
-  {
-    window.location.href = "../ynw-smokedaloc.php";
+    window.location.href = "ynw-bortlen.php";
   }
 
     let nav = document.getElementById("nav");
     let btnnav = document.getElementById("btnnav");
+    let menu = document.getElementById("menu");
 
     btnnav.onclick = () => {
       nav.classList.toggle('menu_show');
+      menu.classList.toggle("active");
     };  
     
-    let menu = document.getElementById("menu");
-
-    menu.onclick = () => {
-        menu.classList.toggle("active");
-    }
-
 let btn1 = document.getElementById("btn1");
 let vestClick1 = document.getElementById("vest-click1");
 
@@ -199,112 +175,112 @@ const initTimer1 = () => {
 
 downloadBtn1.addEventListener("click", initTimer1);
 
-let btn15 = document.getElementById("btn15");
-let vestClick15 = document.getElementById("vest-click15");
+let btn28 = document.getElementById("btn28");
+let vestClick28 = document.getElementById("vest-click28");
 
-btn15.onclick = () => {
-    vestClick15.classList.toggle('displayNone');
-    vestClick16.classList.add('displayNone');
-    vestClick17.classList.add('displayNone');
-    vestClick18.classList.add('displayNone');
+btn28.onclick = () => {
+    vestClick28.classList.toggle('displayNone');
+    vestClick29.classList.add('displayNone');
+    vestClick30.classList.add('displayNone');
+    vestClick31.classList.add('displayNone');
 }
 
-let btn16 = document.getElementById("btn16");
-let vestClick16 = document.getElementById("vest-click16");
+let btn29 = document.getElementById("btn29");
+let vestClick29 = document.getElementById("vest-click29");
 
-btn16.onclick = () => {
-    vestClick15.classList.add('displayNone');
-    vestClick16.classList.toggle('displayNone');
-    vestClick17.classList.add('displayNone');
-    vestClick18.classList.add('displayNone');
+btn29.onclick = () => {
+    vestClick28.classList.add('displayNone');
+    vestClick29.classList.toggle('displayNone');
+    vestClick30.classList.add('displayNone');
+    vestClick31.classList.add('displayNone');
 }
 
-let btn17 = document.getElementById("btn17");
-let vestClick17 = document.getElementById("vest-click17");
+let btn30 = document.getElementById("btn30");
+let vestClick30 = document.getElementById("vest-click30");
 
-btn17.onclick = () => {
-    vestClick15.classList.add('displayNone');
-    vestClick16.classList.add('displayNone');
-    vestClick17.classList.toggle('displayNone');
-    vestClick18.classList.add('displayNone');
+btn30.onclick = () => {
+    vestClick28.classList.add('displayNone');
+    vestClick29.classList.add('displayNone');
+    vestClick30.classList.toggle('displayNone');
+    vestClick31.classList.add('displayNone');
 }
 
-let btn18 = document.getElementById("btn18");
-let vestClick18 = document.getElementById("vest-click18");
+let btn31 = document.getElementById("btn31");
+let vestClick31 = document.getElementById("vest-click31");
 
-btn18.onclick = () => {
-    vestClick15.classList.add('displayNone');
-    vestClick16.classList.add('displayNone');
-    vestClick17.classList.add('displayNone');
-    vestClick18.classList.toggle('displayNone');
+btn31.onclick = () => {
+    vestClick28.classList.add('displayNone');
+    vestClick29.classList.add('displayNone');
+    vestClick30.classList.add('displayNone');
+    vestClick31.classList.toggle('displayNone');
 }
 
-let more2 = document.getElementById("more2");
-let post2 = document.getElementById("post2");
-let right2 = document.getElementById("right2");
-let img4 = document.getElementById("img4");
-let btnA4 = document.getElementById("btnA4");
+let more4 = document.getElementById("more4");
+let post4 = document.getElementById("post4");
+let right4 = document.getElementById("right4");
+let img6 = document.getElementById("img6");
+let btnA6 = document.getElementById("btnA6");
 
-more2.onclick = () => {
+more4.onclick = () => {
     
-    if(post2.style.width === "850px") {
-        post2.style.width = "500px";
-        right2.style.left = "-350px";
-        img4.style.borderRadius = "20px 20px 0px 0px";
-        btn15.style.visibility = "visible";
-        btn16.style.visibility = "visible";
-        btn17.style.visibility = "visible";
-        btn18.style.visibility = "visible";
-        vestClick15.style.visibility = "visible";
-        vestClick16.style.visibility = "visible";
-        vestClick17.style.visibility = "visible";
-        vestClick18.style.visibility = "visible";
-        vestClick15.style.opacity = "1";
-        vestClick16.style.opacity = "1";
-        vestClick17.style.opacity = "1";
-        vestClick18.style.opacity = "1";
-        btnA4.style.opacity = "1";
-        more2.innerText = "Show Details";
-        more2.style.width = "500px";
+    if(post4.style.width === "850px") {
+        post4.style.width = "500px";
+        right4.style.left = "-350px";
+        img6.style.borderRadius = "20px 20px 0px 0px";
+        btn28.style.visibility = "visible";
+        btn29.style.visibility = "visible";
+        btn30.style.visibility = "visible";
+        btn31.style.visibility = "visible";
+        vestClick28.style.visibility = "visible";
+        vestClick29.style.visibility = "visible";
+        vestClick30.style.visibility = "visible";
+        vestClick31.style.visibility = "visible";
+        vestClick28.style.opacity = "1";
+        vestClick29.style.opacity = "1";
+        vestClick30.style.opacity = "1";
+        vestClick31.style.opacity = "1";
+        btnA6.style.opacity = "1";
+        more4.innerText = "Show Details";
+        more4.style.width = "500px";
     } else {
-        post2.style.width = "850px";
-        right2.style.left = "0";
-        img4.style.borderRadius = "20px 0px 0px 0px";
-        btn15.style.visibility = "hidden";
-        btn16.style.visibility = "hidden";
-        btn17.style.visibility = "hidden";
-        btn18.style.visibility = "hidden";
-        vestClick15.style.visibility = "hidden";
-        vestClick16.style.visibility = "hidden";
-        vestClick17.style.visibility = "hidden";
-        vestClick18.style.visibility = "hidden";
-        vestClick15.style.opacity = "0";
-        vestClick16.style.opacity = "0";
-        vestClick17.style.opacity = "0";
-        vestClick18.style.opacity = "0";
-        btnA4.style.opacity = "0";
-        more2.innerText = "Hide Details";
-        more2.style.width = "850px";
+        post4.style.width = "850px";
+        right4.style.left = "0";
+        img6.style.borderRadius = "20px 0px 0px 0px";
+        btn28.style.visibility = "hidden";
+        btn29.style.visibility = "hidden";
+        btn30.style.visibility = "hidden";
+        btn31.style.visibility = "hidden";
+        vestClick28.style.visibility = "hidden";
+        vestClick29.style.visibility = "hidden";
+        vestClick30.style.visibility = "hidden";
+        vestClick31.style.visibility = "hidden";
+        vestClick28.style.opacity = "0";
+        vestClick29.style.opacity = "0";
+        vestClick30.style.opacity = "0";
+        vestClick31.style.opacity = "0";
+        btnA6.style.opacity = "0";
+        more4.innerText = "Hide Details";
+        more4.style.width = "850px";
     }
 }
 
-const downloadBtn4 = document.querySelector(".download-btn4");
-const fileLink4 = "https://drive.google.com/uc?export=download&id=1Ie4vhCHXzYdoIZeypiDRiNF0B_ppHF35";
+const downloadBtn6 = document.querySelector(".download-btn6");
+const fileLink6 = "https://drive.google.com/uc?export=download&id=1mU7J5pa4e-r2VjgKCXcbc9dCAwn2tzth";
 
-const initTimer4 = () => {
-    if(downloadBtn4.classList.contains("disable-timer")) {
-        return location.href = fileLink4;
+const initTimer6 = () => {
+    if(downloadBtn6.classList.contains("disable-timer")) {
+        return location.href = fileLink6;
     }
-    location.href = fileLink4;
-    downloadBtn4.innerHTML = '<span class="text2">Your file is downloading...</span>';
+    location.href = fileLink6;
+    downloadBtn6.innerHTML = '<span class="text2">Your file is downloading...</span>';
     setTimeout(() => {
-        downloadBtn4.classList.add("disable-timer");
-        downloadBtn4.innerHTML = `<span class="icon material-symbols-rounded">vertical_align_bottom</span>
+        downloadBtn6.classList.add("disable-timer");
+        downloadBtn6.innerHTML = `<span class="icon material-symbols-rounded">vertical_align_bottom</span>
                                  <span class="text">Download Again</span>`;
     }, 3000);
 }
 
-downloadBtn4.addEventListener("click", initTimer4);
+downloadBtn6.addEventListener("click", initTimer6);
 
 let btn19 = document.getElementById("btn19");
 let vestClick19 = document.getElementById("vest-click19");

@@ -323,7 +323,7 @@ main {
     width: 500px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(img/ynwmelly1.jpg);
+    background-image: url(../img/ynwmelly1.jpg);
     background-size: cover;
     transition: .5s;
   }
@@ -332,7 +332,7 @@ main {
     width: 500px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(img/ynwmelly2.png);
+    background-image: url(../img/ynwmelly2.png);
     background-size: cover;
     transition: .5s;
   }
@@ -341,7 +341,7 @@ main {
     width: 500px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(img/ynwmelly3.jpg);
+    background-image: url(../img/ynwmelly3.jpg);
     background-size: cover;
     transition: .5s;
   }
@@ -350,7 +350,25 @@ main {
     width: 500px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(img/ynwbslime1.jpg);
+    background-image: url(../img/ynwbslime1.jpg);
+    background-size: cover;
+    transition: .5s;
+  }
+
+  .image5 {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../img/ynwbslime2.jpg);
+    background-size: cover;
+    transition: .5s;
+  }
+
+  .image6 {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../img/ynwbslime3.png);
     background-size: cover;
     transition: .5s;
   }
@@ -359,16 +377,7 @@ main {
     width: 500px;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
-    background-image: url(img/ynwbortlen1.jpg);
-    background-size: cover;
-    transition: .5s;
-  }
-
-  .image10 {
-    width: 500px;
-    height: 500px;
-    border-radius: 20px 20px 0px 0px;
-    background-image: url(img/ynw-smokedaloc1.jpg);
+    background-image: url(../img/ynwbortlen1.jpg);
     background-size: cover;
     transition: .5s;
   }
@@ -405,6 +414,10 @@ main {
   }
 
   #btnA4 {
+    transition: .4s;
+  }
+
+  #btnA6 {
     transition: .4s;
   }
 
@@ -515,6 +528,23 @@ main {
     left: 355px;
   }
 
+  #btn28 {
+    top: 25px;
+    left: 245px;
+  }
+  #btn29 {
+    top: 170px;
+    left: 315px;
+  }
+  #btn30 {
+    top: 258px;
+    left: 230px;
+  }
+  #btn31 {
+    top: 355px;
+    left: 175px;
+  }
+
   .right {
     position: relative;
     top: 0;
@@ -565,7 +595,7 @@ main {
     z-index: 999;
   }
 
-  #vest-click1:before, #vest-click3:before, #vest-click5:before, #vest-click7:before, #vest-click9:before, #vest-click11:before, #vest-click12:before, #vest-click13:before, #vest-click17:before {
+  #vest-click1:before, #vest-click3:before, #vest-click5:before, #vest-click7:before, #vest-click9:before, #vest-click11:before, #vest-click12:before, #vest-click13:before, #vest-click17:before, #vest-click28:before, #vest-click31:before {
     position: absolute;
     content: "";
     height: 0;
@@ -579,7 +609,7 @@ main {
     top: -0.4em;
   }
 
-  #vest-click2:before, #vest-click4:before, #vest-click6:before, #vest-click8:before, #vest-click10:before, #vest-click14:before, #vest-click15:before, #vest-click16:before, #vest-click18:before, #vest-click19:before, #vest-click21:before, #vest-click22:before {
+  #vest-click2:before, #vest-click4:before, #vest-click6:before, #vest-click8:before, #vest-click10:before, #vest-click14:before, #vest-click15:before, #vest-click16:before, #vest-click18:before, #vest-click19:before, #vest-click21:before, #vest-click22:before, #vest-click29:before, #vest-click30:before {
     position: absolute;
     content: "";
     height: 0;
@@ -725,6 +755,26 @@ main {
     left: 210px;
   }
 
+  #vest-click28 {
+    top: 37px;
+    left: 100px;
+  }
+
+  #vest-click29 {
+    top: 64px;
+    left: 170px;
+  }
+
+  #vest-click30 {
+    top: 153px;
+    left: 85px;
+  }
+
+  #vest-click31 {
+    top: 367px;
+    left: 32px;
+  }
+
 
   .total {
     display: flex;
@@ -808,7 +858,7 @@ main {
     margin-bottom: 50px;
   }
 
-  #more1:hover, #more2:hover, #more3:hover {
+  #more1:hover, #more2:hover, #more3:hover, #more4:hover {
     background: #000000;
     color: #ffffff;
   }
@@ -829,7 +879,7 @@ main {
   footer p {
     color: #ffffff;
     margin-bottom: 20px;
-    width: 300px;
+    width: 295px;
     text-align: justify;
   }
 
@@ -856,15 +906,19 @@ main {
   }
   
   .container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   
   @media (min-width: 768px) {
     .col-md-4 {
       float: left;
-      width: 33.33%;
+      width: 45%;
+    }
+    .col-md-3 {
+      float: left;
+      width: 18.3%;
     }
   }
   
@@ -876,7 +930,7 @@ main {
     align-items: center;
   }
 
-  .download-btn1, .download-btn2, .download-btn3, .download-btn4, .download-btn7 {
+  .download-btn1, .download-btn2, .download-btn3, .download-btn4, .download-btn6, .download-btn7 {
     outline: none;
     border: none;
     color: #fff;
@@ -890,17 +944,17 @@ main {
     background: #000000;
     transition: all 0.2s ease;
   }
-  .download-btn1:hover, .download-btn2:hover, .download-btn3:hover, .download-btn4:hover, .download-btn7:hover{
+  .download-btn1:hover, .download-btn2:hover, .download-btn3:hover, .download-btn4:hover, .download-btn6:hover, .download-btn7:hover{
     background: #252525;
   }
-  .download-btn1 .icon, .download-btn2 .icon, .download-btn3 .icon, .download-btn4 .icon, .download-btn7 .icon{
+  .download-btn1 .icon, .download-btn2 .icon, .download-btn3 .icon, .download-btn4 .icon, .download-btn6 .icon, .download-btn7 .icon{
     font-size: 1.6rem;
   }
-  .download-btn1 .text, .download-btn2 .text, .download-btn3 .text, .download-btn4 .text, .download-btn7 .text{
+  .download-btn1 .text, .download-btn2 .text, .download-btn3 .text, .download-btn4 .text, .download-btn6 .text, .download-btn7 .text{
     font-size: 1.4rem;
     padding-left: 10px;
   }
-  .download-btn1 .text2, .download-btn2 .text2, .download-btn3 .text2, .download-btn4 .text2, .download-btn7 .text2{
+  .download-btn1 .text2, .download-btn2 .text2, .download-btn3 .text2, .download-btn4 .text2, .download-btn6 .text2, .download-btn7 .text2{
     font-size: 1.2rem;
     padding-left: 10px;
   }
