@@ -24,11 +24,11 @@
         
         <nav id="nav">
           <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="ynw-melly.php">YNW MELLY</a></li>
-            <li><a href="ynw-bslime.php">YNW BSLIME</a></li>
-            <li><a href="ynw-bortlen.php">YNW BORTLEN</a></li>
+            <li><a href="index">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="ynw-melly">YNW MELLY</a></li>
+            <li><a href="ynw-bslime">YNW BSLIME</a></li>
+            <li><a href="ynw-bortlen">YNW BORTLEN</a></li>
           </ul>
         </nav>
         
@@ -412,10 +412,10 @@
             <div class="col-md-3">
               <h4>Links</h4>
               <ul>
-                <li><a href="about.php">About</a></li>
-                <li><a href="ynw-melly.php">YNW Melly</a></li>
-                <li><a href="ynw-bslime.php">YNW Bslime</a></li>
-                <li><a href="ynw-bortlen.php">YNW Bortlen</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="ynw-melly">YNW Melly</a></li>
+                <li><a href="ynw-bslime">YNW Bslime</a></li>
+                <li><a href="ynw-bortlen">YNW Bortlen</a></li>
               </ul>
             </div>
             <div class="col-md-3">
