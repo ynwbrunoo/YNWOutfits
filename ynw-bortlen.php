@@ -162,108 +162,108 @@
             <button id="more3">Show Details</button>
         </div>
         <div id="gpost4">
-            <div class="post" id="post3">
+            <div class="post" id="post4">
                 <div class="left">
-                    <div class="image7" id="img7">
-                        <div class="vest-click displayNone" id="vest-click19" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                    <div class="image8" id="img8">
+                        <div class="vest-click displayNone" id="vest-click32" onClick="window.open('https://www.off---white.com/en-pl/shopping/off-white-orange-stencil-hoodie-15338610');">
                             <div class="vest-img">
-                                <img src="img/jacket5.png">
+                                <img src="img/hoddie2.jpeg">
                             </div>
-                            <div class="desc-click">
-                                <p><b>Zara</b></p>
-                                <p>White Denim Graffiti Jacket</p>
-                                <p><span>$48</span></p>
+                            <div class="desc">
+                                <p><b>Off-White</b></p>
+                                <p>Stencil Hoodie</p>
+                                <p><span>$424</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click20" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                        <div class="vest-click displayNone" id="vest-click33" onClick="window.open('https://www.cettire.com/products/gucci-gg-buckle-belt-92114925');">
                             <div class="vest-img">
-                                <img src="img/watch1.png">
+                                <img src="img/belt2.png">
                             </div>
-                            <div class="desc-click">
-                                <p><b>Helloice</b></p>
-                                <p>Men's Watch in White Gold</p>
-                                <p><span>$160</span></p>
-                            </div>
-                        </div>
-                        <div class="vest-click displayNone" id="vest-click21" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
-                            <div class="vest-img">
-                                <img src="img/belt1.png">
-                            </div>
-                            <div class="desc-click">
+                            <div class="desc">
                                 <p><b>Gucci</b></p>
-                                <p>GG Supreme belt</p>
-                                <p><span>$480</span></p>
+                                <p>GG Buckle Belt</p>
+                                <p><span>$463</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click22" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
+                        <div class="vest-click displayNone" id="vest-click34" onClick="window.open('https://www.cettire.com/products/balmain-panelled-biker-jeans-95976580/');">
                             <div class="vest-img">
-                                <img src="img/pants2.png">
+                                <img src="img/pants5.png">
                             </div>
-                            <div class="desc-click">
-                                <p><b>Purple Brand</b></p>
-                                <p>White Denim Jeans</p>
-                                <p><span>$326</span></p>
+                            <div class="desc">
+                                <p><b>Balmain</b></p>
+                                <p>Panelled Biker Jeans</p>
+                                <p><span>$1,092</span></p>
                             </div>
                         </div>
-                        <div id="btnA7">
-                            <button id="btn19" class="btn"></button>
-                            <button id="btn20" class="btn"></button>
-                            <button id="btn21" class="btn"></button>
-                            <button id="btn22" class="btn"></button>
+                        <div class="vest-click displayNone" id="vest-click35" onClick="window.open('https://stockx.com/air-jordan-5-retro-what-the');">
+                            <div class="vest-img" style="height: 90px;">
+                                <img src="img/sneakers6.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Jordan</b></p>
+                                <p>Jordan 5 Retro What The</p>
+                                <p><span>$190</span></p>
+                            </div>
+                        </div>
+                        <div id="btnA8">
+                            <button id="btn32" class="btn"></button>
+                            <button id="btn33" class="btn"></button>
+                            <button id="btn34" class="btn"></button>
+                            <button id="btn35" class="btn"></button>
                         </div>
                     </div>
                 </div>
-                <div class="right" id="right3">
+                <div class="right" id="right4">
                     <div class="outfit">
-                        <div class="vest" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                        <div class="vest" onClick="window.open('https://www.off---white.com/en-pl/shopping/off-white-orange-stencil-hoodie-15338610');">
                             <div class="vest-img">
-                                <img src="img/jacket5.png">
+                                <img src="img/hoddie2.jpeg">
                             </div>
                             <div class="desc">
-                                <p><b>Zara</b></p>
-                                <p>White Denim Graffiti Jacket</p>
-                                <p><span>$48</span></p>
+                                <p><b>Off-White</b></p>
+                                <p>Stencil Hoodie</p>
+                                <p><span>$424</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                        <div class="vest" onClick="window.open('https://www.cettire.com/products/gucci-gg-buckle-belt-92114925');">
                             <div class="vest-img">
-                                <img src="img/watch2.png">
-                            </div>
-                            <div class="desc">
-                                <p><b>Helloice</b></p>
-                                <p>Men's Watch in White Gold</p>
-                                <p><span>$160</span></p>
-                            </div>
-                        </div>
-                        <div class="vest" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
-                            <div class="vest-img">
-                                <img src="img/belt1.png">
+                                <img src="img/belt2.png">
                             </div>
                             <div class="desc">
                                 <p><b>Gucci</b></p>
-                                <p>GG Supreme belt</p>
-                                <p><span>$480</span></p>
+                                <p>GG Buckle Belt</p>
+                                <p><span>$463</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
-                            <div class="vest-img" style="height: 90px;">
-                                <img src="img/pants2.png">
+                        <div class="vest" onClick="window.open('https://www.cettire.com/products/balmain-panelled-biker-jeans-95976580/');">
+                            <div class="vest-img">
+                                <img src="img/pants5.png">
                             </div>
                             <div class="desc">
-                                <p><b>Purple Brand</b></p>
-                                <p>White Denim Jeans</p>
-                                <p><span>$326</span></p>
+                                <p><b>Balmain</b></p>
+                                <p>Panelled Biker Jeans</p>
+                                <p><span>$1,092</span></p>
+                            </div>
+                        </div>
+                        <div class="vest" onClick="window.open('https://stockx.com/air-jordan-5-retro-what-the');">
+                            <div class="vest-img" style="height: 90px;">
+                                <img src="img/sneakers6.png">
+                            </div>
+                            <div class="desc">
+                                <p><b>Jordan</b></p>
+                                <p>Jordan 5 Retro What The</p>
+                                <p><span>$190</span></p>
                             </div>
                         </div>
                         <div class="total">
                             <div class="desc">
                                 <p><b>TOTAL</b></p>
                                 <p>The Total Price Of The Outfit</p>
-                                <p><b>$1,014</b></p>
+                                <p><b>$2,169</b></p>
                             </div>
                         </div>
                         <div class="download">
-                            <button class="download-btn7" data-timer="10">
+                            <button class="download-btn8" data-timer="10">
                                 <span class="icon material-symbols-rounded">vertical_align_bottom</span>
                                 <span class="text">Download Image</span>
                             </button>
@@ -271,111 +271,111 @@
                     </div>
                 </div>
             </div>
-            <button id="more3">Show Details</button>
+            <button id="more4">Show Details</button>
         </div>
         <div id="gpost5">
-            <div class="post" id="post3">
+            <div class="post" id="post5">
                 <div class="left">
-                    <div class="image7" id="img7">
-                        <div class="vest-click displayNone" id="vest-click19" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                    <div class="image9" id="img9">
+                        <div class="vest-click displayNone" id="vest-click36" onClick="window.open('https://www.hottopic.com/product/red-goat-woven-bomber-jacket/20537902.html');">
                             <div class="vest-img">
-                                <img src="img/jacket5.png">
+                                <img src="img/jacket6.png">
                             </div>
                             <div class="desc-click">
-                                <p><b>Zara</b></p>
-                                <p>White Denim Graffiti Jacket</p>
+                                <p><b>Brooklyn</b></p>
+                                <p>Red Goat Jacket</p>
                                 <p><span>$48</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click20" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                        <div class="vest-click displayNone" id="vest-click37" onClick="window.open('https://www.cettire.com/pt/products/dior-homme-cd-logo-plaque-reversible-belt-910598075');">
                             <div class="vest-img">
-                                <img src="img/watch1.png">
+                                <img src="img/belt3.jpg">
                             </div>
                             <div class="desc-click">
-                                <p><b>Helloice</b></p>
-                                <p>Men's Watch in White Gold</p>
-                                <p><span>$160</span></p>
+                                <p><b>Dior Homme</b></p>
+                                <p>CD Plaque Reversible Belt</p>
+                                <p><span>$701</span></p>
                             </div>
                         </div>
-                        <div class="vest-click displayNone" id="vest-click21" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
+                        <div class="vest-click displayNone" id="vest-click38" onClick="window.open('https://www.farfetch.com/shopping/men/purple-brand-slim-cut-denim-jeans-item-17625148.aspx');">
                             <div class="vest-img">
-                                <img src="img/belt1.png">
-                            </div>
-                            <div class="desc-click">
-                                <p><b>Gucci</b></p>
-                                <p>GG Supreme belt</p>
-                                <p><span>$480</span></p>
-                            </div>
-                        </div>
-                        <div class="vest-click displayNone" id="vest-click22" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
-                            <div class="vest-img">
-                                <img src="img/pants2.png">
+                                <img src="img/pants6.jpg">
                             </div>
                             <div class="desc-click">
                                 <p><b>Purple Brand</b></p>
-                                <p>White Denim Jeans</p>
-                                <p><span>$326</span></p>
+                                <p>Slim-Cut Denim Jeans</p>
+                                <p><span>$300</span></p>
                             </div>
                         </div>
-                        <div id="btnA7">
-                            <button id="btn19" class="btn"></button>
-                            <button id="btn20" class="btn"></button>
-                            <button id="btn21" class="btn"></button>
-                            <button id="btn22" class="btn"></button>
+                        <div class="vest-click displayNone" id="vest-click39" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
+                            <div class="vest-img" style="height: 90px;">
+                                <img src="img/sneakers7.jpg">
+                            </div>
+                            <div class="desc-click">
+                                <p><b>Jordan</b></p>
+                                <p>Jordan 6 Retro Carmine</p>
+                                <p><span>$195</span></p>
+                            </div>
+                        </div>
+                        <div id="btnA9">
+                            <button id="btn36" class="btn"></button>
+                            <button id="btn37" class="btn"></button>
+                            <button id="btn38" class="btn"></button>
+                            <button id="btn39" class="btn"></button>
                         </div>
                     </div>
                 </div>
-                <div class="right" id="right3">
+                <div class="right" id="right5">
                     <div class="outfit">
-                        <div class="vest" onClick="window.open('https://poshmark.com/listing/Zara-Mens-White-Denim-Graffiti-Jacket-6417a17f4bd760f92f5983f5');">
+                        <div class="vest" onClick="window.open('https://www.hottopic.com/product/red-goat-woven-bomber-jacket/20537902.html');">
                             <div class="vest-img">
-                                <img src="img/jacket5.png">
+                                <img src="img/jacket6.png">
                             </div>
                             <div class="desc">
-                                <p><b>Zara</b></p>
-                                <p>White Denim Graffiti Jacket</p>
+                                <p><b>Brooklyn</b></p>
+                                <p>Red Goat Jacket</p>
                                 <p><span>$48</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.helloice.com/products/iced-roman-numerals-round-cut-men-s-watch-in-white-gold?__currency__=EUR&country=PT&utm_source=google&utm_medium=cpc&utm_campaign=surfaces');">
+                        <div class="vest" onClick="window.open('https://www.cettire.com/pt/products/dior-homme-cd-logo-plaque-reversible-belt-910598075');">
                             <div class="vest-img">
-                                <img src="img/watch2.png">
+                                <img src="img/belt3.jpg">
                             </div>
                             <div class="desc">
-                                <p><b>Helloice</b></p>
-                                <p>Men's Watch in White Gold</p>
-                                <p><span>$160</span></p>
+                                <p><b>Dior Homme</b></p>
+                                <p>CD Plaque Reversible Belt</p>
+                                <p><span>$701</span></p>
                             </div>
                         </div>
-                        <div class="vest" onClick="window.open('https://www.gucci.com/us/en/pr/men/accessories-for-men/belts-for-men/casual-belts-for-men/gg-supreme-belt-with-g-buckle-p-411924KGDHN9643?gclid=CjwKCAjwov6hBhBsEiwAvrvN6N_le8w5vr3WV-vwGBnGie7Gl8zQAGITjagP6qgV04uhBXny8-kkdhoCNXIQAvD_BwE&gclsrc=aw.ds');">
+                        <div class="vest" onClick="window.open('https://www.farfetch.com/shopping/men/purple-brand-slim-cut-denim-jeans-item-17625148.aspx');">
                             <div class="vest-img">
-                                <img src="img/belt1.png">
+                                <img src="img/pants6.jpg">
                             </div>
                             <div class="desc">
-                                <p><b>Gucci</b></p>
-                                <p>GG Supreme belt</p>
-                                <p><span>$480</span></p>
+                                <p><b>Purple Brand</b></p>
+                                <p>Slim-Cut Denim Jeans</p>
+                                <p><span>$300</span></p>
                             </div>
                         </div>
                         <div class="vest" onClick="window.open('https://www.italist.com/ca/men/clothing/jeans/white-denim-jeans/12991198/13158891/purple-brand/');">
                             <div class="vest-img" style="height: 90px;">
-                                <img src="img/pants2.png">
+                                <img src="img/sneakers7.jpg">
                             </div>
                             <div class="desc">
-                                <p><b>Purple Brand</b></p>
-                                <p>White Denim Jeans</p>
-                                <p><span>$326</span></p>
+                                <p><b>Jordan</b></p>
+                                <p>Jordan 6 Retro Carmine</p>
+                                <p><span>$195</span></p>
                             </div>
                         </div>
                         <div class="total">
                             <div class="desc">
                                 <p><b>TOTAL</b></p>
                                 <p>The Total Price Of The Outfit</p>
-                                <p><b>$1,014</b></p>
+                                <p><b>$1,244</b></p>
                             </div>
                         </div>
                         <div class="download">
-                            <button class="download-btn7" data-timer="10">
+                            <button class="download-btn9" data-timer="10">
                                 <span class="icon material-symbols-rounded">vertical_align_bottom</span>
                                 <span class="text">Download Image</span>
                             </button>
@@ -383,7 +383,7 @@
                     </div>
                 </div>
             </div>
-            <button id="more3">Show Details</button>
+            <button id="more5">Show Details</button>
         </div>
     </main>
     <footer>
@@ -480,7 +480,7 @@ bortlentitle.onmousemove = () => {
         ScrollReveal().reveal("#seemore3", { delay: 100, origin: 'bottom'});
         ScrollReveal().reveal(".ynwmusic", { delay: 100, origin: 'bottom'});
 
-        let btn19 = document.getElementById("btn19");
+let btn19 = document.getElementById("btn19");
 let vestClick19 = document.getElementById("vest-click19");
 
 btn19.onclick = () => {
@@ -586,4 +586,218 @@ const initTimer7 = () => {
 }
 
 downloadBtn7.addEventListener("click", initTimer7);
+
+let btn32 = document.getElementById("btn32");
+let vestClick32 = document.getElementById("vest-click32");
+
+btn32.onclick = () => {
+    vestClick32.classList.toggle('displayNone');
+    vestClick33.classList.add('displayNone');
+    vestClick34.classList.add('displayNone');
+    vestClick35.classList.add('displayNone');
+}
+
+let btn33 = document.getElementById("btn33");
+let vestClick33 = document.getElementById("vest-click33");
+
+btn33.onclick = () => {
+    vestClick32.classList.add('displayNone');
+    vestClick33.classList.toggle('displayNone');
+    vestClick34.classList.add('displayNone');
+    vestClick35.classList.add('displayNone');
+}
+
+let btn34 = document.getElementById("btn34");
+let vestClick34 = document.getElementById("vest-click34");
+
+btn34.onclick = () => {
+    vestClick32.classList.add('displayNone');
+    vestClick33.classList.add('displayNone');
+    vestClick34.classList.toggle('displayNone');
+    vestClick35.classList.add('displayNone');
+}
+
+let btn35 = document.getElementById("btn35");
+let vestClick35 = document.getElementById("vest-click35");
+
+btn35.onclick = () => {
+    vestClick32.classList.add('displayNone');
+    vestClick33.classList.add('displayNone');
+    vestClick34.classList.add('displayNone');
+    vestClick35.classList.toggle('displayNone');
+}
+
+let more4 = document.getElementById("more4");
+let post4 = document.getElementById("post4");
+let right4 = document.getElementById("right4");
+let img8 = document.getElementById("img8");
+let btnA8 = document.getElementById("btnA8");
+
+more4.onclick = () => {
+    
+    if(post4.style.width === "850px") {
+        post4.style.width = "500px";
+        right4.style.left = "-350px";
+        img8.style.borderRadius = "20px 20px 0px 0px";
+        btn32.style.visibility = "visible";
+        btn33.style.visibility = "visible";
+        btn34.style.visibility = "visible";
+        btn35.style.visibility = "visible";
+        vestClick32.style.visibility = "visible";
+        vestClick33.style.visibility = "visible";
+        vestClick34.style.visibility = "visible";
+        vestClick35.style.visibility = "visible";
+        vestClick32.style.opacity = "1";
+        vestClick33.style.opacity = "1";
+        vestClick34.style.opacity = "1";
+        vestClick35.style.opacity = "1";
+        btnA8.style.opacity = "1";
+        more4.innerText = "Show Details";
+        more4.style.width = "500px";
+    } else {
+        post4.style.width = "850px";
+        right4.style.left = "0";
+        img8.style.borderRadius = "20px 0px 0px 0px";
+        btn32.style.visibility = "hidden";
+        btn33.style.visibility = "hidden";
+        btn34.style.visibility = "hidden";
+        btn35.style.visibility = "hidden";
+        vestClick32.style.visibility = "hidden";
+        vestClick33.style.visibility = "hidden";
+        vestClick34.style.visibility = "hidden";
+        vestClick35.style.visibility = "hidden";
+        vestClick32.style.opacity = "0";
+        vestClick33.style.opacity = "0";
+        vestClick34.style.opacity = "0";
+        vestClick35.style.opacity = "0";
+        btnA8.style.opacity = "0";
+        more4.innerText = "Hide Details";
+        more4.style.width = "850px";
+    }
+}
+
+const downloadBtn8 = document.querySelector(".download-btn8");
+const fileLink8 = "https://drive.google.com/uc?export=download&id=1psizIDdJx-W9UM2HmIZHfHwvo_RVuwHb";
+
+const initTimer8 = () => {
+    if(downloadBtn8.classList.contains("disable-timer")) {
+        return location.href = fileLink8;
+    }
+    location.href = fileLink8;
+    downloadBtn8.innerHTML = '<span class="text2">Your file is downloading...</span>';
+    setTimeout(() => {
+        downloadBtn8.classList.add("disable-timer");
+        downloadBtn8.innerHTML = `<span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                                 <span class="text">Download Again</span>`;
+    }, 3000);
+}
+
+downloadBtn8.addEventListener("click", initTimer8);
+
+let btn36 = document.getElementById("btn36");
+let vestClick36 = document.getElementById("vest-click36");
+
+btn36.onclick = () => {
+    vestClick36.classList.toggle('displayNone');
+    vestClick37.classList.add('displayNone');
+    vestClick38.classList.add('displayNone');
+    vestClick39.classList.add('displayNone');
+}
+
+let btn37 = document.getElementById("btn37");
+let vestClick37 = document.getElementById("vest-click37");
+
+btn37.onclick = () => {
+    vestClick36.classList.add('displayNone');
+    vestClick37.classList.toggle('displayNone');
+    vestClick38.classList.add('displayNone');
+    vestClick39.classList.add('displayNone');
+}
+
+let btn38 = document.getElementById("btn38");
+let vestClick38 = document.getElementById("vest-click38");
+
+btn38.onclick = () => {
+    vestClick36.classList.add('displayNone');
+    vestClick37.classList.add('displayNone');
+    vestClick38.classList.toggle('displayNone');
+    vestClick39.classList.add('displayNone');
+}
+
+let btn39 = document.getElementById("btn39");
+let vestClick39 = document.getElementById("vest-click39");
+
+btn39.onclick = () => {
+    vestClick36.classList.add('displayNone');
+    vestClick37.classList.add('displayNone');
+    vestClick38.classList.add('displayNone');
+    vestClick39.classList.toggle('displayNone');
+}
+
+let more5 = document.getElementById("more5");
+let post5 = document.getElementById("post5");
+let right5 = document.getElementById("right5");
+let img9 = document.getElementById("img9");
+let btnA9 = document.getElementById("btnA9");
+
+more5.onclick = () => {
+    
+    if(post5.style.width === "850px") {
+        post5.style.width = "500px";
+        right5.style.left = "-350px";
+        img9.style.borderRadius = "20px 20px 0px 0px";
+        btn36.style.visibility = "visible";
+        btn37.style.visibility = "visible";
+        btn38.style.visibility = "visible";
+        btn39.style.visibility = "visible";
+        vestClick36.style.visibility = "visible";
+        vestClick37.style.visibility = "visible";
+        vestClick38.style.visibility = "visible";
+        vestClick39.style.visibility = "visible";
+        vestClick36.style.opacity = "1";
+        vestClick37.style.opacity = "1";
+        vestClick38.style.opacity = "1";
+        vestClick39.style.opacity = "1";
+        btnA9.style.opacity = "1";
+        more5.innerText = "Show Details";
+        more5.style.width = "500px";
+    } else {
+        post5.style.width = "850px";
+        right5.style.left = "0";
+        img9.style.borderRadius = "20px 0px 0px 0px";
+        btn36.style.visibility = "hidden";
+        btn37.style.visibility = "hidden";
+        btn38.style.visibility = "hidden";
+        btn39.style.visibility = "hidden";
+        vestClick36.style.visibility = "hidden";
+        vestClick37.style.visibility = "hidden";
+        vestClick38.style.visibility = "hidden";
+        vestClick39.style.visibility = "hidden";
+        vestClick36.style.opacity = "0";
+        vestClick37.style.opacity = "0";
+        vestClick38.style.opacity = "0";
+        vestClick39.style.opacity = "0";
+        btnA9.style.opacity = "0";
+        more5.innerText = "Hide Details";
+        more5.style.width = "850px";
+    }
+}
+
+const downloadBtn9 = document.querySelector(".download-btn9");
+const fileLink9 = "https://drive.google.com/uc?export=download&id=1vfqwgnA_kv5-EiGJwbEU3nzxJ8Iml_wN";
+
+const initTimer9 = () => {
+    if(downloadBtn9.classList.contains("disable-timer")) {
+        return location.href = fileLink9;
+    }
+    location.href = fileLink9;
+    downloadBtn9.innerHTML = '<span class="text2">Your file is downloading...</span>';
+    setTimeout(() => {
+        downloadBtn9.classList.add("disable-timer");
+        downloadBtn9.innerHTML = `<span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                                 <span class="text">Download Again</span>`;
+    }, 3000);
+}
+
+downloadBtn9.addEventListener("click", initTimer9);
 </script>

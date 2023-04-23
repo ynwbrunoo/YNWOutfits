@@ -382,6 +382,24 @@ main {
     transition: .5s;
   }
 
+  .image8 {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../img/ynwbortlen2.jpg);
+    background-size: cover;
+    transition: .5s;
+  }
+
+  .image9 {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../img/ynwbortlen3.jpg);
+    background-size: cover;
+    transition: .5s;
+  }
+
   .btn {
     width: 10px;
     height: 10px;
@@ -401,27 +419,7 @@ main {
     border: 1px solid rgb(255, 255, 255);
   }
 
-  #btnA1 {
-    transition: .4s;
-  }
-
-  #btnA2 {
-    transition: .4s;
-  }
-
-  #btnA3 {
-    transition: .4s;
-  }
-
-  #btnA4 {
-    transition: .4s;
-  }
-
-  #btnA6 {
-    transition: .4s;
-  }
-
-  #btnA7 {
+  #btnA1, #btnA2, #btnA3, #btnA4, #btnA5, #btnA6, #btnA7, #btnA8, #btnA9 {
     transition: .4s;
   }
 
@@ -527,6 +525,18 @@ main {
     top: 425px;
     left: 355px;
   }
+  #btn23 {
+    top: 160px;
+    left: 315px;
+  }
+  #btn24 {
+    top: 338px;
+    left: 240px;
+  }
+  #btn25 {
+    top: 475px;
+    left: 275px;
+  }
 
   #btn28 {
     top: 25px;
@@ -543,6 +553,38 @@ main {
   #btn31 {
     top: 355px;
     left: 175px;
+  }
+  #btn32 {
+    top: 125px;
+    left: 225px;
+  }
+  #btn33 {
+    top: 260px;
+    left: 205px;
+  }
+  #btn34 {
+    top: 355px;
+    left: 175px;
+  }
+  #btn35 {
+    top: 445px;
+    left: 185px;
+  }
+  #btn36 {
+    top: 125px;
+    left: 295px;
+  }
+  #btn37 {
+    top: 254px;
+    left: 205px;
+  }
+  #btn38 {
+    top: 345px;
+    left: 190px;
+  }
+  #btn39 {
+    top: 455px;
+    left: 95px;
   }
 
   .right {
@@ -595,7 +637,11 @@ main {
     z-index: 999;
   }
 
-  #vest-click1:before, #vest-click3:before, #vest-click5:before, #vest-click7:before, #vest-click9:before, #vest-click11:before, #vest-click12:before, #vest-click13:before, #vest-click17:before, #vest-click28:before, #vest-click31:before {
+  #vest-click35 {
+    width: 320px;
+  }
+
+  #vest-click1:before, #vest-click3:before, #vest-click5:before, #vest-click7:before, #vest-click9:before, #vest-click11:before, #vest-click12:before, #vest-click13:before, #vest-click17:before, #vest-click28:before, #vest-click31:before, #vest-click32:before {
     position: absolute;
     content: "";
     height: 0;
@@ -609,7 +655,7 @@ main {
     top: -0.4em;
   }
 
-  #vest-click2:before, #vest-click4:before, #vest-click6:before, #vest-click8:before, #vest-click10:before, #vest-click14:before, #vest-click15:before, #vest-click16:before, #vest-click18:before, #vest-click19:before, #vest-click21:before, #vest-click22:before, #vest-click29:before, #vest-click30:before {
+  #vest-click2:before, #vest-click4:before, #vest-click6:before, #vest-click8:before, #vest-click10:before, #vest-click14:before, #vest-click15:before, #vest-click16:before, #vest-click18:before, #vest-click19:before, #vest-click21:before, #vest-click22:before, #vest-click23:before, #vest-click24:before, #vest-click25:before, #vest-click29:before, #vest-click30:before, #vest-click33:before, #vest-click34:before, #vest-click35:before, #vest-click36:before, #vest-click37:before, #vest-click38:before{
     position: absolute;
     content: "";
     height: 0;
@@ -633,6 +679,20 @@ main {
     border-right: 0.5em solid transparent;
     margin: auto;
     left: 150px;
+    right: 0;
+    bottom: -0.4em;
+  }
+
+  #vest-click39:before {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 0.5em solid #ffffff;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    margin: auto;
+    left: -120px;
     right: 0;
     bottom: -0.4em;
   }
@@ -755,6 +815,21 @@ main {
     left: 210px;
   }
 
+  #vest-click23 {
+    top: 55px;
+    left: 170px;
+  }
+
+  #vest-click24 {
+    top: 230px;
+    left: 95px;
+  }
+
+  #vest-click25 {
+    top: 368px;
+    left: 130px;
+  }
+
   #vest-click28 {
     top: 37px;
     left: 100px;
@@ -775,6 +850,45 @@ main {
     left: 32px;
   }
 
+  #vest-click32 {
+    top: 137px;
+    left: 80px;
+  }
+
+  #vest-click33 {
+    top: 155px;
+    left: 60px;
+  }
+
+  #vest-click34 {
+    top: 250px;
+    left: 30px;
+  }
+
+  #vest-click35 {
+    top: 340px;
+    left: 20px;
+  }
+
+  #vest-click36 {
+    top: 20px;
+    left: 150px;
+  }
+
+  #vest-click37 {
+    top: 145px;
+    left: 60px;
+  }
+
+  #vest-click38 {
+    top: 240px;
+    left: 45px;
+  }
+
+  #vest-click39 {
+    top: 350px;
+    left: 10px;
+  }
 
   .total {
     display: flex;
@@ -839,7 +953,7 @@ main {
   }
 
 
-  #more1, #more2, #more3, #more4 {
+  #more1, #more2, #more3, #more4, #more5 {
     background: #f7f5f5;
     color: #000000;
     width: 500px;
@@ -858,7 +972,7 @@ main {
     margin-bottom: 50px;
   }
 
-  #more1:hover, #more2:hover, #more3:hover, #more4:hover {
+  #more1:hover, #more2:hover, #more3:hover, #more4:hover, #more5:hover {
     background: #000000;
     color: #ffffff;
   }
@@ -930,7 +1044,7 @@ main {
     align-items: center;
   }
 
-  .download-btn1, .download-btn2, .download-btn3, .download-btn4, .download-btn6, .download-btn7 {
+  .download-btn1, .download-btn2, .download-btn3, .download-btn4, .download-btn5, .download-btn6, .download-btn7, .download-btn8, .download-btn9 {
     outline: none;
     border: none;
     color: #fff;
@@ -944,17 +1058,17 @@ main {
     background: #000000;
     transition: all 0.2s ease;
   }
-  .download-btn1:hover, .download-btn2:hover, .download-btn3:hover, .download-btn4:hover, .download-btn6:hover, .download-btn7:hover{
+  .download-btn1:hover, .download-btn2:hover, .download-btn3:hover, .download-btn4:hover, .download-btn5:hover, .download-btn6:hover, .download-btn7:hover, .download-btn8:hover, .download-btn9:hover{
     background: #252525;
   }
-  .download-btn1 .icon, .download-btn2 .icon, .download-btn3 .icon, .download-btn4 .icon, .download-btn6 .icon, .download-btn7 .icon{
+  .download-btn1 .icon, .download-btn2 .icon, .download-btn3 .icon, .download-btn4 .icon, .download-btn5 .icon, .download-btn6 .icon, .download-btn7 .icon, .download-btn8 .icon, .download-btn9 .icon{
     font-size: 1.6rem;
   }
-  .download-btn1 .text, .download-btn2 .text, .download-btn3 .text, .download-btn4 .text, .download-btn6 .text, .download-btn7 .text{
+  .download-btn1 .text, .download-btn2 .text, .download-btn3 .text, .download-btn4 .text, .download-btn5 .text, .download-btn6 .text, .download-btn7 .text, .download-btn8 .text, .download-btn9 .text{
     font-size: 1.4rem;
     padding-left: 10px;
   }
-  .download-btn1 .text2, .download-btn2 .text2, .download-btn3 .text2, .download-btn4 .text2, .download-btn6 .text2, .download-btn7 .text2{
+  .download-btn1 .text2, .download-btn2 .text2, .download-btn3 .text2, .download-btn4 .text2, .download-btn5 .text2, .download-btn6 .text2, .download-btn7 .text2, .download-btn8 .text2, .download-btn9 .text2 {
     font-size: 1.2rem;
     padding-left: 10px;
   }
@@ -970,5 +1084,13 @@ main {
 
     .header-warning {
       display: block;
+    }
+
+    footer {
+      display: none;
+    }
+
+    .menu {
+      display: none;
     }
   }
