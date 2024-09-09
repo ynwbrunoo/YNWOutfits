@@ -115,47 +115,90 @@ let img1 = document.getElementById("img1");
 let btnA1 = document.getElementById("btnA1");
 
 more1.onclick = () => {
-    
-    if(post1.style.width === "850px") {
-        post1.style.width = "500px";
-        right1.style.left = "-350px";
-        img1.style.borderRadius = "20px 20px 0px 0px";
-        btn1.style.visibility = "visible";
-        btn2.style.visibility = "visible";
-        btn3.style.visibility = "visible";
-        btn4.style.visibility = "visible";
-        vestClick1.style.visibility = "visible";
-        vestClick2.style.visibility = "visible";
-        vestClick3.style.visibility = "visible";
-        vestClick4.style.visibility = "visible";
-        vestClick1.style.opacity = "1";
-        vestClick2.style.opacity = "1";
-        vestClick3.style.opacity = "1";
-        vestClick4.style.opacity = "1";
-        btnA1.style.opacity = "1";
-        more1.innerText = "Show Details";
-        more1.style.width = "500px";
+    if (window.innerWidth < 600) {
+        // Para telas menores que 600px
+        if (post1.style.height === "800px") {
+            post1.style.height = "400px";
+            right1.style.top = "0"; // Mova o menu para baixo
+            right1.style.left = "-375px"; // Alinha à esquerda
+            btn1.style.visibility = "visible";
+            btn2.style.visibility = "visible";
+            btn3.style.visibility = "visible";
+            btn4.style.visibility = "visible";
+            vestClick1.style.visibility = "visible";
+            vestClick2.style.visibility = "visible";
+            vestClick3.style.visibility = "visible";
+            vestClick4.style.visibility = "visible";
+            vestClick1.style.opacity = "1";
+            vestClick2.style.opacity = "1";
+            vestClick3.style.opacity = "1";
+            vestClick4.style.opacity = "1";
+            btnA1.style.opacity = "1";
+            more1.innerText = "Show Details";
+            more1.style.width = "400px";
+        } else {
+            post1.style.height = "800px";
+            right1.style.top = "400px"; // Mova o menu para baixo
+            right1.style.left = "-375px"; // Alinha à esquerda
+            btn1.style.visibility = "hidden";
+            btn2.style.visibility = "hidden";
+            btn3.style.visibility = "hidden";
+            btn4.style.visibility = "hidden";
+            vestClick1.style.visibility = "hidden";
+            vestClick2.style.visibility = "hidden";
+            vestClick3.style.visibility = "hidden";
+            vestClick4.style.visibility = "hidden";
+            vestClick1.style.opacity = "0";
+            vestClick2.style.opacity = "0";
+            vestClick3.style.opacity = "0";
+            vestClick4.style.opacity = "0";
+            btnA1.style.opacity = "0";
+            more1.innerText = "Hide Details";
+            more1.style.width = "400px";
+        }
     } else {
-        post1.style.width = "850px";
-        right1.style.left = "0";
-        img1.style.borderRadius = "20px 0px 0px 0px";
-        btn1.style.visibility = "hidden";
-        btn2.style.visibility = "hidden";
-        btn3.style.visibility = "hidden";
-        btn4.style.visibility = "hidden";
-        vestClick1.style.visibility = "hidden";
-        vestClick2.style.visibility = "hidden";
-        vestClick3.style.visibility = "hidden";
-        vestClick4.style.visibility = "hidden";
-        vestClick1.style.opacity = "0";
-        vestClick2.style.opacity = "0";
-        vestClick3.style.opacity = "0";
-        vestClick4.style.opacity = "0";
-        btnA1.style.opacity = "0";
-        more1.innerText = "Hide Details";
-        more1.style.width = "850px";
+        // Para telas maiores que 600px
+        if (post1.style.width === "850px") {
+            post1.style.width = "500px";
+            right1.style.left = "-350px"; // Posição original do menu
+            img1.style.borderRadius = "20px 20px 0px 0px";
+            btn1.style.visibility = "visible";
+            btn2.style.visibility = "visible";
+            btn3.style.visibility = "visible";
+            btn4.style.visibility = "visible";
+            vestClick1.style.visibility = "visible";
+            vestClick2.style.visibility = "visible";
+            vestClick3.style.visibility = "visible";
+            vestClick4.style.visibility = "visible";
+            vestClick1.style.opacity = "1";
+            vestClick2.style.opacity = "1";
+            vestClick3.style.opacity = "1";
+            vestClick4.style.opacity = "1";
+            btnA1.style.opacity = "1";
+            more1.innerText = "Show Details";
+            more1.style.width = "500px";
+        } else {
+            post1.style.width = "850px";
+            right1.style.left = "0"; // Posição original do menu
+            img1.style.borderRadius = "20px 0px 0px 0px";
+            btn1.style.visibility = "hidden";
+            btn2.style.visibility = "hidden";
+            btn3.style.visibility = "hidden";
+            btn4.style.visibility = "hidden";
+            vestClick1.style.visibility = "hidden";
+            vestClick2.style.visibility = "hidden";
+            vestClick3.style.visibility = "hidden";
+            vestClick4.style.visibility = "hidden";
+            vestClick1.style.opacity = "0";
+            vestClick2.style.opacity = "0";
+            vestClick3.style.opacity = "0";
+            vestClick4.style.opacity = "0";
+            btnA1.style.opacity = "0";
+            more1.innerText = "Hide Details";
+            more1.style.width = "850px";
+        }
     }
-}
+};
 
 const downloadBtn1 = document.querySelector(".download-btn1");
 const fileLink1 = "https://drive.google.com/uc?export=download&id=1SUTuepkhf66wg7dtmCb55tr55zbZb76l";
@@ -222,7 +265,48 @@ let img6 = document.getElementById("img6");
 let btnA6 = document.getElementById("btnA6");
 
 more4.onclick = () => {
-    
+    if (window.innerWidth < 600) {
+        // Para telas menores que 600px
+        if (post4.style.height === "800px") {
+            post4.style.height = "400px";
+            right4.style.top = "0"; // Mova o menu para baixo
+            right4.style.left = "-375px"; // Alinha à esquerda
+            btn28.style.visibility = "visible";
+        btn29.style.visibility = "visible";
+        btn30.style.visibility = "visible";
+        btn31.style.visibility = "visible";
+        vestClick28.style.visibility = "visible";
+        vestClick29.style.visibility = "visible";
+        vestClick30.style.visibility = "visible";
+        vestClick31.style.visibility = "visible";
+        vestClick28.style.opacity = "1";
+        vestClick29.style.opacity = "1";
+        vestClick30.style.opacity = "1";
+        vestClick31.style.opacity = "1";
+        btnA6.style.opacity = "1";
+        more4.innerText = "Show Details";
+            more4.style.width = "400px";
+        } else {
+            post4.style.height = "800px";
+            right4.style.top = "400px"; // Mova o menu para baixo
+            right4.style.left = "-375px"; // Alinha à esquerda
+            btn28.style.visibility = "hidden";
+        btn29.style.visibility = "hidden";
+        btn30.style.visibility = "hidden";
+        btn31.style.visibility = "hidden";
+        vestClick28.style.visibility = "hidden";
+        vestClick29.style.visibility = "hidden";
+        vestClick30.style.visibility = "hidden";
+        vestClick31.style.visibility = "hidden";
+        vestClick28.style.opacity = "0";
+        vestClick29.style.opacity = "0";
+        vestClick30.style.opacity = "0";
+        vestClick31.style.opacity = "0";
+        btnA6.style.opacity = "0";
+        more4.innerText = "Hide Details";
+            more4.style.width = "400px";
+        }
+    } else {
     if(post4.style.width === "850px") {
         post4.style.width = "500px";
         right4.style.left = "-350px";
@@ -261,7 +345,7 @@ more4.onclick = () => {
         btnA6.style.opacity = "0";
         more4.innerText = "Hide Details";
         more4.style.width = "850px";
-    }
+    }}
 }
 
 const downloadBtn6 = document.querySelector(".download-btn6");
@@ -329,7 +413,48 @@ let img7 = document.getElementById("img7");
 let btnA7 = document.getElementById("btnA7");
 
 more3.onclick = () => {
-    
+    if (window.innerWidth < 600) {
+        // Para telas menores que 600px
+        if (post3.style.height === "800px") {
+            post3.style.height = "400px";
+            right3.style.top = "0"; // Mova o menu para baixo
+            right3.style.left = "-375px"; // Alinha à esquerda
+            btn19.style.visibility = "visible";
+        btn20.style.visibility = "visible";
+        btn21.style.visibility = "visible";
+        btn22.style.visibility = "visible";
+        vestClick19.style.visibility = "visible";
+        vestClick20.style.visibility = "visible";
+        vestClick21.style.visibility = "visible";
+        vestClick22.style.visibility = "visible";
+        vestClick19.style.opacity = "1";
+        vestClick20.style.opacity = "1";
+        vestClick21.style.opacity = "1";
+        vestClick22.style.opacity = "1";
+        btnA7.style.opacity = "1";
+            more3.innerText = "Show Details";
+            more3.style.width = "400px";
+        } else {
+            post3.style.height = "800px";
+            right3.style.top = "400px"; // Mova o menu para baixo
+            right3.style.left = "-375px"; // Alinha à esquerda
+            btn19.style.visibility = "hidden";
+        btn20.style.visibility = "hidden";
+        btn21.style.visibility = "hidden";
+        btn22.style.visibility = "hidden";
+        vestClick19.style.visibility = "hidden";
+        vestClick20.style.visibility = "hidden";
+        vestClick21.style.visibility = "hidden";
+        vestClick22.style.visibility = "hidden";
+        vestClick19.style.opacity = "0";
+        vestClick20.style.opacity = "0";
+        vestClick21.style.opacity = "0";
+        vestClick22.style.opacity = "0";
+        btnA7.style.opacity = "0";
+            more3.innerText = "Hide Details";
+            more3.style.width = "400px";
+        }
+    } else {
     if(post3.style.width === "850px") {
         post3.style.width = "500px";
         right3.style.left = "-350px";
@@ -368,7 +493,7 @@ more3.onclick = () => {
         btnA7.style.opacity = "0";
         more3.innerText = "Hide Details";
         more3.style.width = "850px";
-    }
+    }}
 }
 
 const downloadBtn7 = document.querySelector(".download-btn7");
