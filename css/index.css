@@ -196,6 +196,7 @@ main {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.4s;
+  text-wrap: nowrap;
 }
 
 .titlesinger button:hover {
@@ -1179,391 +1180,460 @@ footer ul li a:hover {
 
   .titlesinger {
     width: fit-content;
+    margin-bottom: 50px !important;
   }
 
   .titlesinger h1 {
-    font-size: 52px;
+    font-size: 72px;
+    text-align: center;
   }
 
   .left {
-    min-width: 400px;
-    height: 400px;
+    min-width: 350px;
+    height: 350px;
   }
 
-  .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9 {
-    width: 400px;
-    height: 400px;
+  .footer h4 {
+    margin-top: 10px !important;
+  }
+
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image7,
+  .image8,
+  .image9 {
+    width: 350px;
+    height: 350px;
   }
 
   .post {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 
   .right {
     position: relative; /* Ajusta a posição para que fique abaixo do conteúdo */
     top: 0; /* Remove a posição inicial */
-    left: -375px; /* Remove o deslocamento lateral */
-    width: 400px; /* Ajusta a largura para ocupar a tela */
-    height: 400px; /* Ajusta a altura conforme necessário */
+    left: -350px; /* Remove o deslocamento lateral */
+    width: 350px; /* Ajusta a largura para ocupar a tela */
+    height: 350px; /* Ajusta a altura conforme necessário */
   }
 
   .outfit {
-    height: 400px;
+    height: 350px;
   }
 
-  #more1, #more2, #more3, #more4, #more5 {
-    width: 400px;
+  #more1,
+  #more2,
+  #more3,
+  #more4,
+  #more5 {
+    width: 350px;
     position: relative;
     z-index: 10;
   }
 
+  /* Fórmula: (valor do top/left / 400) * 350 = novo valor */
+
   #btn1 {
-    top: 25px;
-    left: 275px;
+    top: 17.5px; /* (20 / 400) * 350 = 17.5 */
+    left: 192.5px; /* (220 / 400) * 350 = 192.5 */
   }
-  
+
   #btn2 {
-    top: 200px;
-    left: 285px;
+    top: 140px; /* (160 / 400) * 350 = 140 */
+    left: 199.5px; /* (228 / 400) * 350 = 199.5 */
   }
-  
+
   #btn3 {
-    top: 250px;
-    left: 197px;
+    top: 175px; /* (200 / 400) * 350 = 175 */
+    left: 138.25px; /* (158 / 400) * 350 = 138.25 */
   }
-  
+
   #btn4 {
-    top: 470px;
-    left: 220px;
+    top: 329px; /* (376 / 400) * 350 = 329 */
+    left: 154px; /* (176 / 400) * 350 = 154 */
   }
-  
+
   #btn5 {
-    top: 65px;
-    left: 235px;
+    top: 45.5px; /* (52 / 400) * 350 = 45.5 */
+    left: 164.5px; /* (188 / 400) * 350 = 164.5 */
   }
-  
+
   #btn6 {
-    top: 140px;
-    left: 280px;
+    top: 98px; /* (112 / 400) * 350 = 98 */
+    left: 196px; /* (224 / 400) * 350 = 196 */
   }
-  
+
   #btn7 {
-    top: 230px;
-    left: 230px;
+    top: 161px; /* (184 / 400) * 350 = 161 */
+    left: 161px; /* (184 / 400) * 350 = 161 */
   }
-  
+
   #btn8 {
-    top: 415px;
-    left: 190px;
+    top: 290.5px; /* (332 / 400) * 350 = 290.5 */
+    left: 133px; /* (152 / 400) * 350 = 133 */
   }
-  
+
   #btn9 {
-    top: 55px;
-    left: 175px;
+    top: 38.5px; /* (44 / 400) * 350 = 38.5 */
+    left: 122.5px; /* (140 / 400) * 350 = 122.5 */
   }
-  
+
   #btn10 {
-    top: 180px;
-    left: 250px;
+    top: 126px; /* (144 / 400) * 350 = 126 */
+    left: 175px; /* (200 / 400) * 350 = 175 */
   }
-  
+
   #btn11 {
-    top: 280px;
-    left: 170px;
+    top: 196px; /* (224 / 400) * 350 = 196 */
+    left: 119px; /* (136 / 400) * 350 = 119 */
   }
-  
+
   #btn12 {
-    top: 227px;
-    left: 276px;
+    top: 159.25px; /* (182 / 400) * 350 = 159.25 */
+    left: 192.5px; /* (220 / 400) * 350 = 192.5 */
   }
-  
+
   #btn13 {
-    top: 330px;
-    left: 255px;
+    top: 231px; /* (264 / 400) * 350 = 231 */
+    left: 178.5px; /* (204 / 400) * 350 = 178.5 */
   }
-  
+
   #btn14 {
-    top: 485px;
-    left: 330px;
+    top: 339px; /* (388 / 400) * 350 = 339 */
+    left: 231px; /* (264 / 400) * 350 = 231 */
   }
-  
+
   #btn15 {
-    top: 138px;
-    left: 260px;
+    top: 96.25px; /* (110 / 400) * 350 = 96.25 */
+    left: 182px; /* (208 / 400) * 350 = 182 */
   }
+
   #btn16 {
-    top: 185px;
-    left: 330px;
+    top: 129.5px; /* (148 / 400) * 350 = 129.5 */
+    left: 231px; /* (264 / 400) * 350 = 231 */
   }
+
   #btn17 {
-    top: 270px;
-    left: 230px;
+    top: 189px; /* (216 / 400) * 350 = 189 */
+    left: 161px; /* (184 / 400) * 350 = 161 */
   }
+
   #btn18 {
-    top: 445px;
-    left: 155px;
+    top: 311.5px; /* (356 / 400) * 350 = 311.5 */
+    left: 108.5px; /* (124 / 400) * 350 = 108.5 */
   }
+
   #btn19 {
-    top: 180px;
-    left: 295px;
+    top: 126px; /* (144 / 400) * 350 = 126 */
+    left: 206.5px; /* (236 / 400) * 350 = 206.5 */
   }
+
   #btn20 {
-    top: 290px;
-    left: 415px;
+    top: 203px; /* (232 / 400) * 350 = 203 */
+    left: 290.5px; /* (332 / 400) * 350 = 290.5 */
   }
+
   #btn21 {
-    top: 398px;
-    left: 230px;
+    top: 278.25px; /* (318 / 400) * 350 = 278.25 */
+    left: 161px; /* (184 / 400) * 350 = 161 */
   }
+
   #btn22 {
-    top: 425px;
-    left: 355px;
+    top: 297.5px; /* (340 / 400) * 350 = 297.5 */
+    left: 248.5px; /* (284 / 400) * 350 = 248.5 */
   }
+
   #btn23 {
-    top: 160px;
-    left: 315px;
+    top: 112px; /* (128 / 400) * 350 = 112 */
+    left: 220.5px; /* (252 / 400) * 350 = 220.5 */
   }
+
   #btn24 {
-    top: 338px;
-    left: 240px;
+    top: 236.25px; /* (270 / 400) * 350 = 236.25 */
+    left: 168px; /* (192 / 400) * 350 = 168 */
   }
+
   #btn25 {
-    top: 475px;
-    left: 275px;
+    top: 332.5px; /* (380 / 400) * 350 = 332.5 */
+    left: 192.5px; /* (220 / 400) * 350 = 192.5 */
   }
-  
+
   #btn28 {
-    top: 25px;
-    left: 245px;
+    top: 17.5px; /* (20 / 400) * 350 = 17.5 */
+    left: 171.5px; /* (196 / 400) * 350 = 171.5 */
   }
+
   #btn29 {
-    top: 170px;
-    left: 315px;
+    top: 119px; /* (136 / 400) * 350 = 119 */
+    left: 220.5px; /* (252 / 400) * 350 = 220.5 */
   }
+
   #btn30 {
-    top: 258px;
-    left: 230px;
+    top: 180.25px; /* (206 / 400) * 350 = 180.25 */
+    left: 161px; /* (184 / 400) * 350 = 161 */
   }
+
   #btn31 {
-    top: 355px;
-    left: 175px;
+    top: 248.5px; /* (284 / 400) * 350 = 248.5 */
+    left: 122.5px; /* (140 / 400) * 350 = 122.5 */
   }
+
   #btn32 {
-    top: 125px;
-    left: 225px;
+    top: 87.5px; /* (100 / 400) * 350 = 87.5 */
+    left: 157.5px; /* (180 / 400) * 350 = 157.5 */
   }
+
   #btn33 {
-    top: 260px;
-    left: 205px;
+    top: 182px; /* (208 / 400) * 350 = 182 */
+    left: 143.5px; /* (164 / 400) * 350 = 143.5 */
   }
+
   #btn34 {
-    top: 355px;
-    left: 175px;
+    top: 248.5px; /* (284 / 400) * 350 = 248.5 */
+    left: 122.5px; /* (140 / 400) * 350 = 122.5 */
   }
+
   #btn35 {
-    top: 445px;
-    left: 185px;
+    top: 311.5px; /* (356 / 400) * 350 = 311.5 */
+    left: 129.5px; /* (148 / 400) * 350 = 129.5 */
   }
+
   #btn36 {
-    top: 125px;
-    left: 295px;
+    top: 87.5px; /* (100 / 400) * 350 = 87.5 */
+    left: 206.5px; /* (236 / 400) * 350 = 206.5 */
   }
+
   #btn37 {
-    top: 254px;
-    left: 205px;
+    top: 178.5px; /* (204 / 400) * 350 = 178.5 */
+    left: 143.5px; /* (164 / 400) * 350 = 143.5 */
   }
+
   #btn38 {
-    top: 345px;
-    left: 190px;
+    top: 241.5px; /* (276 / 400) * 350 = 241.5 */
+    left: 133px; /* (152 / 400) * 350 = 133 */
   }
+
   #btn39 {
-    top: 455px;
-    left: 95px;
+    top: 318.5px; /* (364 / 400) * 350 = 318.5 */
+    left: 66.5px; /* (76 / 400) * 350 = 66.5 */
   }
 
   #vest-click1 {
-    top: 40px;
-    left: 130px;
+    top: 28px; /* (32 / 400) * 350 = 28 */
+    left: 93px; /* (105 / 400) * 350 + 1 = 91.875 ≈ 93 */
   }
-  
+
   #vest-click2 {
-    top: 92px;
-    left: 140px;
+    top: 64px; /* (73 / 400) * 350 = 63.875 ≈ 64 */
+    left: 100px; /* (113 / 400) * 350 + 1 = 98.875 ≈ 100 */
   }
-  
+
   #vest-click3 {
-    top: 264px;
-    left: 52px;
+    top: 185px; /* (211 / 400) * 350 = 184.625 ≈ 185 */
+    left: 38px; /* (42 / 400) * 350 + 1 = 36.75 ≈ 38 */
   }
-  
+
   #vest-click4 {
-    top: 360px;
-    left: 75.5px;
+    top: 252px; /* (288 / 400) * 350 = 252 */
+    left: 54px; /* (61 / 400) * 350 + 1 = 53.375 ≈ 54 */
   }
-  
+
   #vest-click5 {
-    top: 78px;
-    left: 90px;
+    top: 54px; /* (62 / 400) * 350 = 54.25 ≈ 54 */
+    left: 65px; /* (73 / 400) * 350 + 1 = 63.875 ≈ 65 */
   }
-  
+
   #vest-click6 {
-    top: 32px;
-    left: 135px;
+    top: 23px; /* (26 / 400) * 350 = 22.75 ≈ 23 */
+    left: 96px; /* (109 / 400) * 350 + 1 = 95.375 ≈ 96 */
   }
-  
+
   #vest-click7 {
-    top: 245px;
-    left: 85px;
+    top: 171px; /* (196 / 400) * 350 = 171.5 ≈ 171 */
+    left: 61px; /* (69 / 400) * 350 + 1 = 60.375 ≈ 61 */
   }
-  
+
   #vest-click8 {
-    top: 305px;
-    left: 45px;
+    top: 213px; /* (244 / 400) * 350 = 213.5 ≈ 213 */
+    left: 33px; /* (37 / 400) * 350 + 1 = 32.375 ≈ 33 */
   }
-  
+
   #vest-click9 {
-    top: 67px;
-    left: 30px;
+    top: 47px; /* (54 / 400) * 350 = 47.25 ≈ 47 */
+    left: 23px; /* (25 / 400) * 350 + 1 = 21.875 ≈ 23 */
   }
-  
+
   #vest-click10 {
-    top: 75px;
-    left: 105px;
+    top: 52px; /* (60 / 400) * 350 = 52.5 ≈ 52 */
+    left: 75px; /* (85 / 400) * 350 + 1 = 74.375 ≈ 75 */
   }
-  
+
   #vest-click11 {
-    top: 293px;
-    left: 25px;
+    top: 206px; /* (235 / 400) * 350 = 205.625 ≈ 206 */
+    left: 19px; /* (21 / 400) * 350 + 1 = 18.375 ≈ 19 */
   }
-  
+
   #vest-click12 {
-    top: 240px;
-    left: 131px;
+    top: 168px; /* (192 / 400) * 350 = 168 */
+    left: 94px; /* (106 / 400) * 350 + 1 = 92.75 ≈ 94 */
   }
-  
+
   #vest-click13 {
-    top: 340px;
-    left: 110px;
+    top: 238px; /* (272 / 400) * 350 = 238 */
+    left: 79px; /* (89 / 400) * 350 + 1 = 77.875 ≈ 79 */
   }
-  
+
   #vest-click14 {
-    top: 377px;
-    left: 185px;
+    top: 264px; /* (302 / 400) * 350 = 264.25 ≈ 264 */
+    left: 131px; /* (149 / 400) * 350 + 1 = 130.375 ≈ 131 */
   }
-  
+
   #vest-click15 {
-    top: 32px;
-    left: 115px;
+    top: 23px; /* (26 / 400) * 350 = 22.75 ≈ 23 */
+    left: 82px; /* (93 / 400) * 350 + 1 = 81.375 ≈ 82 */
   }
-  
+
   #vest-click16 {
-    top: 78px;
-    left: 185px;
+    top: 54px; /* (62 / 400) * 350 = 54.25 ≈ 54 */
+    left: 131px; /* (149 / 400) * 350 + 1 = 130.375 ≈ 131 */
   }
-  
+
   #vest-click17 {
-    top: 280px;
-    left: 85px;
+    top: 196px; /* (224 / 400) * 350 = 196 */
+    left: 61px; /* (69 / 400) * 350 + 1 = 60.375 ≈ 61 */
   }
-  
+
   #vest-click18 {
-    top: 337px;
-    left: 10px;
+    top: 236px; /* (270 / 400) * 350 = 236.25 ≈ 236 */
+    left: 9px; /* (9 / 400) * 350 + 1 = 7.875 ≈ 9 */
   }
-  
+
   #vest-click19 {
-    top: 73px;
-    left: 150px;
+    top: 51px; /* (58 / 400) * 350 = 50.75 ≈ 51 */
+    left: 107px; /* (121 / 400) * 350 + 1 = 105.875 ≈ 107 */
   }
-  
+
   #vest-click20 {
-    top: 184px;
-    left: 195px;
+    top: 128px; /* (147 / 400) * 350 = 128.625 ≈ 128 */
+    left: 138px; /* (157 / 400) * 350 + 1 = 137.375 ≈ 138 */
   }
-  
+
   #vest-click21 {
-    top: 290px;
-    left: 85px;
+    top: 203px; /* (232 / 400) * 350 = 203 */
+    left: 61px; /* (69 / 400) * 350 + 1 = 60.375 ≈ 61 */
   }
-  
+
   #vest-click22 {
-    top: 318px;
-    left: 210px;
+    top: 222px; /* (254 / 400) * 350 = 222.25 ≈ 222 */
+    left: 149px; /* (169 / 400) * 350 + 1 = 147.875 ≈ 149 */
   }
-  
+
   #vest-click23 {
-    top: 55px;
-    left: 170px;
+    top: 38px; /* (44 / 400) * 350 = 38.5 ≈ 38 */
+    left: 121px; /* (137 / 400) * 350 + 1 = 119.875 ≈ 121 */
   }
-  
+
   #vest-click24 {
-    top: 230px;
-    left: 95px;
+    top: 161px; /* (184 / 400) * 350 = 161 */
+    left: 68px; /* (77 / 400) * 350 + 1 = 67.375 ≈ 68 */
   }
-  
+
   #vest-click25 {
-    top: 368px;
-    left: 130px;
+    top: 258px; /* (295 / 400) * 350 = 258.125 ≈ 258 */
+    left: 93px; /* (105 / 400) * 350 + 1 = 91.875 ≈ 93 */
   }
-  
+
   #vest-click28 {
-    top: 37px;
-    left: 100px;
+    top: 26px; /* (30 / 400) * 350 = 26.25 ≈ 26 */
+    left: 72px; /* (81 / 400) * 350 + 1 = 70.875 ≈ 72 */
   }
-  
+
   #vest-click29 {
-    top: 64px;
-    left: 170px;
+    top: 44px; /* (51 / 400) * 350 = 44.625 ≈ 44 */
+    left: 121px; /* (137 / 400) * 350 + 1 = 119.875 ≈ 121 */
   }
-  
+
   #vest-click30 {
-    top: 153px;
-    left: 85px;
+    top: 107px; /* (122 / 400) * 350 = 106.75 ≈ 107 */
+    left: 61px; /* (69 / 400) * 350 + 1 = 60.375 ≈ 61 */
   }
-  
+
   #vest-click31 {
-    top: 367px;
-    left: 32px;
+    top: 257px; /* (294 / 400) * 350 = 257.25 ≈ 257 */
+    left: 25px; /* (27 / 400) * 350 + 1 = 23.625 ≈ 25 */
   }
-  
+
   #vest-click32 {
-    top: 137px;
-    left: 80px;
+    top: 96px; /* (110 / 400) * 350 = 96.25 ≈ 96 */
+    left: 58px; /* (65 / 400) * 350 + 1 = 56.875 ≈ 58 */
   }
-  
+
   #vest-click33 {
-    top: 155px;
-    left: 60px;
+    top: 108px; /* (124 / 400) * 350 = 108.5 ≈ 108 */
+    left: 44px; /* (49 / 400) * 350 + 1 = 42.875 ≈ 44 */
   }
-  
+
   #vest-click34 {
-    top: 250px;
-    left: 30px;
+    top: 175px; /* (200 / 400) * 350 = 175 */
+    left: 23px; /* (25 / 400) * 350 + 1 = 21.875 ≈ 23 */
   }
-  
+
   #vest-click35 {
-    top: 340px;
-    left: 20px;
+    top: 238px; /* (272 / 400) * 350 = 238 */
+    left: 16px; /* (17 / 400) * 350 + 1 = 14.875 ≈ 16 */
   }
-  
+
   #vest-click36 {
-    top: 20px;
-    left: 150px;
+    top: 14px; /* (16 / 400) * 350 = 14 */
+    left: 107px; /* (121 / 400) * 350 + 1 = 105.875 ≈ 107 */
   }
-  
+
   #vest-click37 {
-    top: 145px;
-    left: 60px;
+    top: 101px; /* (116 / 400) * 350 = 101.5 ≈ 101 */
+    left: 44px; /* (49 / 400) * 350 + 1 = 42.875 ≈ 44 */
   }
-  
+
   #vest-click38 {
-    top: 240px;
-    left: 45px;
+    top: 168px; /* (192 / 400) * 350 = 168 */
+    left: 33px; /* (37 / 400) * 350 + 1 = 32.375 ≈ 33 */
   }
-  
+
   #vest-click39 {
-    top: 350px;
-    left: 10px;
+    top: 245px; /* (280 / 400) * 350 = 245 */
+    left: 9px; /* (9 / 400) * 350 + 1 = 7.875 ≈ 9 */
+  }
+
+  .vest-click {
+    width: 196px; /* (224 / 400) * 350 = 196 */
+    margin: 7px; /* (8 / 400) * 350 = 7 */
+    height: 59px; /* (68 / 400) * 350 = 59.5 ≈ 59 */
+    border-radius: 7px; /* (8 / 400) * 350 = 7 */
+  }
+
+  .vest .desc {
+    font-size: 12px; /* (11 / 400) * 350 = 9.625 ≈ 9 */
+  }
+
+  .vest img {
+    width: 60px;
+  }
+
+  .vest-click img {
+    width: 42px; /* (48 / 400) * 350 = 42 */
+  }
+
+  .desc-click {
+    font-size: 9px; /* (11 / 400) * 350 = 9.625 ≈ 9 */
+    margin-left: 3px; /* (4 / 400) * 350 = 3.5 ≈ 3 */
+  }
+
+  .ynwmusic {
+    width: 350px !important;
   }
 }

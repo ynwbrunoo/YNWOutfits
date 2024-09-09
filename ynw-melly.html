@@ -683,143 +683,287 @@ let img3 = document.getElementById("img3");
 let btnA3 = document.getElementById("btnA3");
 
 more1.onclick = () => {
-    
-    if(post1.style.width === "850px") {
-        post1.style.width = "500px";
-        right1.style.left = "-350px";
-        img1.style.borderRadius = "20px 20px 0px 0px";
-        btn1.style.visibility = "visible";
-        btn2.style.visibility = "visible";
-        btn3.style.visibility = "visible";
-        btn4.style.visibility = "visible";
-        vestClick1.style.visibility = "visible";
-        vestClick2.style.visibility = "visible";
-        vestClick3.style.visibility = "visible";
-        vestClick4.style.visibility = "visible";
-        vestClick1.style.opacity = "1";
-        vestClick2.style.opacity = "1";
-        vestClick3.style.opacity = "1";
-        vestClick4.style.opacity = "1";
-        btnA1.style.opacity = "1";
-        more1.innerText = "Show Details";
-        more1.style.width = "500px";
+    if (window.innerWidth < 600) {
+        // Para telas menores que 600px
+        if (post1.style.height === "700px") {
+            post1.style.height = "350px";
+            right1.style.top = "0"; // Mova o menu para baixo
+            right1.style.left = "-350px"; // Alinha à esquerda
+            btn1.style.visibility = "visible";
+            btn2.style.visibility = "visible";
+            btn3.style.visibility = "visible";
+            btn4.style.visibility = "visible";
+            vestClick1.style.visibility = "visible";
+            vestClick2.style.visibility = "visible";
+            vestClick3.style.visibility = "visible";
+            vestClick4.style.visibility = "visible";
+            vestClick1.style.opacity = "1";
+            vestClick2.style.opacity = "1";
+            vestClick3.style.opacity = "1";
+            vestClick4.style.opacity = "1";
+            btnA1.style.opacity = "1";
+            more1.innerText = "Show Details";
+            more1.style.width = "350px";
+        } else {
+            post1.style.height = "700px";
+            right1.style.top = "350px"; // Mova o menu para baixo
+            right1.style.left = "-350px"; // Alinha à esquerda
+            btn1.style.visibility = "hidden";
+            btn2.style.visibility = "hidden";
+            btn3.style.visibility = "hidden";
+            btn4.style.visibility = "hidden";
+            vestClick1.style.visibility = "hidden";
+            vestClick2.style.visibility = "hidden";
+            vestClick3.style.visibility = "hidden";
+            vestClick4.style.visibility = "hidden";
+            vestClick1.style.opacity = "0";
+            vestClick2.style.opacity = "0";
+            vestClick3.style.opacity = "0";
+            vestClick4.style.opacity = "0";
+            btnA1.style.opacity = "0";
+            more1.innerText = "Hide Details";
+            more1.style.width = "350px";
+        }
     } else {
-        post1.style.width = "850px";
-        right1.style.left = "0";
-        img1.style.borderRadius = "20px 0px 0px 0px";
-        btn1.style.visibility = "hidden";
-        btn2.style.visibility = "hidden";
-        btn3.style.visibility = "hidden";
-        btn4.style.visibility = "hidden";
-        vestClick1.style.visibility = "hidden";
-        vestClick2.style.visibility = "hidden";
-        vestClick3.style.visibility = "hidden";
-        vestClick4.style.visibility = "hidden";
-        vestClick1.style.opacity = "0";
-        vestClick2.style.opacity = "0";
-        vestClick3.style.opacity = "0";
-        vestClick4.style.opacity = "0";
-        btnA1.style.opacity = "0";
-        more1.innerText = "Hide Details";
-        more1.style.width = "850px";
+        // Para telas maiores que 600px
+        if (post1.style.width === "850px") {
+            post1.style.width = "500px";
+            right1.style.left = "-350px"; // Posição original do menu
+            img1.style.borderRadius = "20px 20px 0px 0px";
+            btn1.style.visibility = "visible";
+            btn2.style.visibility = "visible";
+            btn3.style.visibility = "visible";
+            btn4.style.visibility = "visible";
+            vestClick1.style.visibility = "visible";
+            vestClick2.style.visibility = "visible";
+            vestClick3.style.visibility = "visible";
+            vestClick4.style.visibility = "visible";
+            vestClick1.style.opacity = "1";
+            vestClick2.style.opacity = "1";
+            vestClick3.style.opacity = "1";
+            vestClick4.style.opacity = "1";
+            btnA1.style.opacity = "1";
+            more1.innerText = "Show Details";
+            more1.style.width = "500px";
+        } else {
+            post1.style.width = "850px";
+            right1.style.left = "0"; // Posição original do menu
+            img1.style.borderRadius = "20px 0px 0px 0px";
+            btn1.style.visibility = "hidden";
+            btn2.style.visibility = "hidden";
+            btn3.style.visibility = "hidden";
+            btn4.style.visibility = "hidden";
+            vestClick1.style.visibility = "hidden";
+            vestClick2.style.visibility = "hidden";
+            vestClick3.style.visibility = "hidden";
+            vestClick4.style.visibility = "hidden";
+            vestClick1.style.opacity = "0";
+            vestClick2.style.opacity = "0";
+            vestClick3.style.opacity = "0";
+            vestClick4.style.opacity = "0";
+            btnA1.style.opacity = "0";
+            more1.innerText = "Hide Details";
+            more1.style.width = "850px";
+        }
     }
-}
+};
 
 more2.onclick = () => {
-    if(post2.style.width === "850px") {
-        post2.style.width = "500px";
-        right2.style.left = "-350px";
-        img2.style.borderRadius = "20px 20px 0px 0px";
-        btn5.style.visibility = "visible";
-        btn6.style.visibility = "visible";
-        btn7.style.visibility = "visible";
-        btn8.style.visibility = "visible";
-        vestClick5.style.visibility = "visible";
-        vestClick6.style.visibility = "visible";
-        vestClick7.style.visibility = "visible";
-        vestClick8.style.visibility = "visible";
-        vestClick5.style.opacity = "1";
-        vestClick6.style.opacity = "1";
-        vestClick7.style.opacity = "1";
-        vestClick8.style.opacity = "1";
-        btnA2.style.opacity = "1";
-        more2.innerText = "Show Details";
-        more2.style.width = "500px";
+    if (window.innerWidth < 600) {
+        // Para telas menores que 600px
+        if (post2.style.height === "700px") {
+            post2.style.height = "350px";
+            right2.style.top = "0"; // Mova o menu para baixo
+            right2.style.left = "-350px"; // Alinha à esquerda
+            btn5.style.visibility = "visible";
+            btn6.style.visibility = "visible";
+            btn7.style.visibility = "visible";
+            btn8.style.visibility = "visible";
+            vestClick5.style.visibility = "visible";
+            vestClick6.style.visibility = "visible";
+            vestClick7.style.visibility = "visible";
+            vestClick8.style.visibility = "visible";
+            vestClick5.style.opacity = "1";
+            vestClick6.style.opacity = "1";
+            vestClick7.style.opacity = "1";
+            vestClick8.style.opacity = "1";
+            btnA2.style.opacity = "1";
+            more2.innerText = "Show Details";
+            more2.style.width = "350px";
+        } else {
+            post2.style.height = "700px";
+            right2.style.top = "350px"; // Mova o menu para baixo
+            right2.style.left = "-350px"; // Alinha à esquerda
+            btn5.style.visibility = "hidden";
+            btn6.style.visibility = "hidden";
+            btn7.style.visibility = "hidden";
+            btn8.style.visibility = "hidden";
+            vestClick5.style.visibility = "hidden";
+            vestClick6.style.visibility = "hidden";
+            vestClick7.style.visibility = "hidden";
+            vestClick8.style.visibility = "hidden";
+            vestClick5.style.opacity = "0";
+            vestClick6.style.opacity = "0";
+            vestClick7.style.opacity = "0";
+            vestClick8.style.opacity = "0";
+            btnA2.style.opacity = "0";
+            more2.innerText = "Hide Details";
+            more2.style.width = "400px";
+        }
     } else {
-        post2.style.width = "850px";
-        right2.style.left = "0";
-        img2.style.borderRadius = "20px 0px 0px 0px";
-        btn5.style.visibility = "hidden";
-        btn6.style.visibility = "hidden";
-        btn7.style.visibility = "hidden";
-        btn8.style.visibility = "hidden";
-        vestClick5.style.visibility = "hidden";
-        vestClick6.style.visibility = "hidden";
-        vestClick7.style.visibility = "hidden";
-        vestClick8.style.visibility = "hidden";
-        vestClick5.style.opacity = "0";
-        vestClick6.style.opacity = "0";
-        vestClick7.style.opacity = "0";
-        vestClick8.style.opacity = "0";
-        btnA2.style.opacity = "0";
-        more2.innerText = "Hide Details";
-        more2.style.width = "850px";
+        // Para telas maiores que 600px
+        if (post2.style.width === "850px") {
+            post2.style.width = "500px";
+            right2.style.left = "-350px"; // Posição original do menu
+            img2.style.borderRadius = "20px 20px 0px 0px";
+            btn5.style.visibility = "visible";
+            btn6.style.visibility = "visible";
+            btn7.style.visibility = "visible";
+            btn8.style.visibility = "visible";
+            vestClick5.style.visibility = "visible";
+            vestClick6.style.visibility = "visible";
+            vestClick7.style.visibility = "visible";
+            vestClick8.style.visibility = "visible";
+            vestClick5.style.opacity = "1";
+            vestClick6.style.opacity = "1";
+            vestClick7.style.opacity = "1";
+            vestClick8.style.opacity = "1";
+            btnA2.style.opacity = "1";
+            more2.innerText = "Show Details";
+            more2.style.width = "500px";
+        } else {
+            post2.style.width = "850px";
+            right2.style.left = "0"; // Posição original do menu
+            img2.style.borderRadius = "20px 0px 0px 0px";
+            btn5.style.visibility = "hidden";
+            btn6.style.visibility = "hidden";
+            btn7.style.visibility = "hidden";
+            btn8.style.visibility = "hidden";
+            vestClick5.style.visibility = "hidden";
+            vestClick6.style.visibility = "hidden";
+            vestClick7.style.visibility = "hidden";
+            vestClick8.style.visibility = "hidden";
+            vestClick5.style.opacity = "0";
+            vestClick6.style.opacity = "0";
+            vestClick7.style.opacity = "0";
+            vestClick8.style.opacity = "0";
+            btnA2.style.opacity = "0";
+            more2.innerText = "Hide Details";
+            more2.style.width = "850px";
+        }
     }
-}
+};
 
 more3.onclick = () => {
-    if(post3.style.width === "850px") {
-        post3.style.width = "500px";
-        right3.style.left = "-350px";
-        img3.style.borderRadius = "20px 20px 0px 0px";
-        btn9.style.visibility = "visible";
-        btn10.style.visibility = "visible";
-        btn11.style.visibility = "visible";
-        btn12.style.visibility = "visible";
-        btn13.style.visibility = "visible";
-        btn14.style.visibility = "visible";
-        vestClick9.style.visibility = "visible";
-        vestClick10.style.visibility = "visible";
-        vestClick11.style.visibility = "visible";
-        vestClick12.style.visibility = "visible";
-        vestClick13.style.visibility = "visible";
-        vestClick14.style.visibility = "visible";
-        vestClick9.style.opacity = "1";
-        vestClick10.style.opacity = "1";
-        vestClick11.style.opacity = "1";
-        vestClick12.style.opacity = "1";
-        vestClick13.style.opacity = "1";
-        vestClick14.style.opacity = "1";
-        btnA3.style.opacity = "1";
-        more3.innerText = "Show Details";
-        more3.style.width = "500px";
+    if (window.innerWidth < 600) {
+        // Para telas menores que 600px
+        if (post3.style.height === "700px") {
+            post3.style.height = "350px";
+            right3.style.top = "0"; // Mova o menu para baixo
+            right3.style.left = "-350px"; // Alinha à esquerda
+            btn9.style.visibility = "visible";
+            btn10.style.visibility = "visible";
+            btn11.style.visibility = "visible";
+            btn12.style.visibility = "visible";
+            btn13.style.visibility = "visible";
+            btn14.style.visibility = "visible";
+            vestClick9.style.visibility = "visible";
+            vestClick10.style.visibility = "visible";
+            vestClick11.style.visibility = "visible";
+            vestClick12.style.visibility = "visible";
+            vestClick13.style.visibility = "visible";
+            vestClick14.style.visibility = "visible";
+            vestClick9.style.opacity = "1";
+            vestClick10.style.opacity = "1";
+            vestClick11.style.opacity = "1";
+            vestClick12.style.opacity = "1";
+            vestClick13.style.opacity = "1";
+            vestClick14.style.opacity = "1";
+            btnA3.style.opacity = "1";
+            more3.innerText = "Show Details";
+            more3.style.width = "350px";
+        } else {
+            post3.style.height = "700px";
+            right3.style.top = "350px"; // Mova o menu para baixo
+            right3.style.left = "-350px"; // Alinha à esquerda
+            btn9.style.visibility = "hidden";
+            btn10.style.visibility = "hidden";
+            btn11.style.visibility = "hidden";
+            btn12.style.visibility = "hidden";
+            btn13.style.visibility = "hidden";
+            btn14.style.visibility = "hidden";
+            vestClick9.style.visibility = "hidden";
+            vestClick10.style.visibility = "hidden";
+            vestClick11.style.visibility = "hidden";
+            vestClick12.style.visibility = "hidden";
+            vestClick13.style.visibility = "hidden";
+            vestClick14.style.visibility = "hidden";
+            vestClick9.style.opacity = "0";
+            vestClick10.style.opacity = "0";
+            vestClick11.style.opacity = "0";
+            vestClick12.style.opacity = "0";
+            vestClick13.style.opacity = "0";
+            vestClick14.style.opacity = "0";
+            btnA3.style.opacity = "0";
+            more3.innerText = "Hide Details";
+            more3.style.width = "350px";
+        }
     } else {
-        post3.style.width = "850px";
-        right3.style.left = "0";
-        img3.style.borderRadius = "20px 0px 0px 0px";
-        btn9.style.visibility = "hidden";
-        btn10.style.visibility = "hidden";
-        btn11.style.visibility = "hidden";
-        btn12.style.visibility = "hidden";
-        btn13.style.visibility = "hidden";
-        btn14.style.visibility = "hidden";
-        vestClick9.style.visibility = "hidden";
-        vestClick10.style.visibility = "hidden";
-        vestClick11.style.visibility = "hidden";
-        vestClick12.style.visibility = "hidden";
-        vestClick13.style.visibility = "hidden";
-        vestClick14.style.visibility = "hidden";
-        vestClick9.style.opacity = "0";
-        vestClick10.style.opacity = "0";
-        vestClick11.style.opacity = "0";
-        vestClick12.style.opacity = "0";
-        vestClick13.style.opacity = "0";
-        vestClick14.style.opacity = "0";
-        btnA3.style.opacity = "0";
-        more3.innerText = "Hide Details";
-        more3.style.width = "850px";
+        // Para telas maiores que 600px
+        if (post3.style.width === "850px") {
+            post3.style.width = "500px";
+            right3.style.left = "-350px"; // Posição original do menu
+            img3.style.borderRadius = "20px 20px 0px 0px";
+            btn9.style.visibility = "visible";
+            btn10.style.visibility = "visible";
+            btn11.style.visibility = "visible";
+            btn12.style.visibility = "visible";
+            btn13.style.visibility = "visible";
+            btn14.style.visibility = "visible";
+            vestClick9.style.visibility = "visible";
+            vestClick10.style.visibility = "visible";
+            vestClick11.style.visibility = "visible";
+            vestClick12.style.visibility = "visible";
+            vestClick13.style.visibility = "visible";
+            vestClick14.style.visibility = "visible";
+            vestClick9.style.opacity = "1";
+            vestClick10.style.opacity = "1";
+            vestClick11.style.opacity = "1";
+            vestClick12.style.opacity = "1";
+            vestClick13.style.opacity = "1";
+            vestClick14.style.opacity = "1";
+            btnA3.style.opacity = "1";
+            more3.innerText = "Show Details";
+            more3.style.width = "500px";
+        } else {
+            post3.style.width = "850px";
+            right3.style.left = "0"; // Posição original do menu
+            img3.style.borderRadius = "20px 0px 0px 0px";
+            btn9.style.visibility = "hidden";
+            btn10.style.visibility = "hidden";
+            btn11.style.visibility = "hidden";
+            btn12.style.visibility = "hidden";
+            btn13.style.visibility = "hidden";
+            btn14.style.visibility = "hidden";
+            vestClick9.style.visibility = "hidden";
+            vestClick10.style.visibility = "hidden";
+            vestClick11.style.visibility = "hidden";
+            vestClick12.style.visibility = "hidden";
+            vestClick13.style.visibility = "hidden";
+            vestClick14.style.visibility = "hidden";
+            vestClick9.style.opacity = "0";
+            vestClick10.style.opacity = "0";
+            vestClick11.style.opacity = "0";
+            vestClick12.style.opacity = "0";
+            vestClick13.style.opacity = "0";
+            vestClick14.style.opacity = "0";
+            btnA3.style.opacity = "0";
+            more3.innerText = "Hide Details";
+            more3.style.width = "850px";
+        }
     }
-}
+};
+
 
 const downloadBtn1 = document.querySelector(".download-btn1");
 const fileLink1 = "https://drive.google.com/uc?export=download&id=1SUTuepkhf66wg7dtmCb55tr55zbZb76l";
